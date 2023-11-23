@@ -512,6 +512,24 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/geofence_violation_reason_t/entries/0/description</name>
+  <message>
+  <source>maximum distance to home exceeded</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/geofence_violation_reason_t/entries/1/description</name>
+  <message>
+  <source>maximum altitude exceeded</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/geofence_violation_reason_t/entries/2/description</name>
+  <message>
+  <source>approaching or outside geofence</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/health_component_t/entries/1/description</name>
   <message>
   <source>None</source>
@@ -716,21 +734,9 @@
   </message>
 </context>
 <context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/1073741824/description</name>
-  <message>
-  <source>External 8</source>
-  </message>
-</context>
-<context>
   <name>/components/1/enums/navigation_mode_group_t/entries/131072/description</name>
   <message>
   <source>Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/134217728/description</name>
-  <message>
-  <source>External 5</source>
   </message>
 </context>
 <context>
@@ -743,12 +749,6 @@
   <name>/components/1/enums/navigation_mode_group_t/entries/16384/description</name>
   <message>
   <source>Offboard</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/16777216/description</name>
-  <message>
-  <source>External 2</source>
   </message>
 </context>
 <context>
@@ -770,12 +770,6 @@
   </message>
 </context>
 <context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/268435456/description</name>
-  <message>
-  <source>External 6</source>
-  </message>
-</context>
-<context>
   <name>/components/1/enums/navigation_mode_group_t/entries/32/description</name>
   <message>
   <source>RTL</source>
@@ -785,12 +779,6 @@
   <name>/components/1/enums/navigation_mode_group_t/entries/32768/description</name>
   <message>
   <source>Stabilized</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/33554432/description</name>
-  <message>
-  <source>External 3</source>
   </message>
 </context>
 <context>
@@ -812,27 +800,9 @@
   </message>
 </context>
 <context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/536870912/description</name>
-  <message>
-  <source>External 7</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/67108864/description</name>
-  <message>
-  <source>External 4</source>
-  </message>
-</context>
-<context>
   <name>/components/1/enums/navigation_mode_group_t/entries/8/description</name>
   <message>
   <source>Mission mode</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_group_t/entries/8388608/description</name>
-  <message>
-  <source>External 1</source>
   </message>
 </context>
 <context>
@@ -884,57 +854,9 @@
   </message>
 </context>
 <context>
-  <name>/components/1/enums/navigation_mode_t/entries/16/description</name>
-  <message>
-  <source>External 1</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_t/entries/17/description</name>
-  <message>
-  <source>External 2</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_t/entries/18/description</name>
-  <message>
-  <source>External 3</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_t/entries/19/description</name>
-  <message>
-  <source>External 4</source>
-  </message>
-</context>
-<context>
   <name>/components/1/enums/navigation_mode_t/entries/2/description</name>
   <message>
   <source>Position control</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_t/entries/20/description</name>
-  <message>
-  <source>External 5</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_t/entries/21/description</name>
-  <message>
-  <source>External 6</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_t/entries/22/description</name>
-  <message>
-  <source>External 7</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/navigation_mode_t/entries/23/description</name>
-  <message>
-  <source>External 8</source>
   </message>
 </context>
 <context>
@@ -1269,6 +1191,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/13131225/message</name>
+  <message>
+  <source>Geofence violation: {3}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/13131225/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/1326449/message</name>
   <message>
   <source>Gyro {3} uncalibrated</source>
@@ -1287,19 +1222,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/13923616/message</name>
-  <message>
-  <source>Geofence violation: exceeding maximum altitude above Home</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/13923616/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/14200647/message</name>
   <message>
   <source>Vehicle is not in multicopter mode</source>
@@ -1309,19 +1231,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   <name>/components/1/event_groups/arming_check/events/14200647/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/143019/message</name>
-  <message>
-  <source>Geofence violation: approaching or outside geofence</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/143019/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1336,18 +1245,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/14748737/message</name>
-  <message>
-  <source>Mode is not registered</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/14748737/description</name>
-  <message>
-  <source>The application running the mode is not started.</source>
   </message>
 </context>
 <context>
@@ -1591,19 +1488,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   <source>Upload a mission first.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/4065583/message</name>
-  <message>
-  <source>Geofence violation: exceeding maximum distance to Home</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/4065583/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2026,18 +1910,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/9815168/message</name>
-  <message>
-  <source>Mode is unresponsive</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/9815168/description</name>
-  <message>
-  <source>The application running the mode might have crashed or the CPU load is too high.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/9965819/message</name>
   <message>
   <source>GNSS heading not reliable</source>
@@ -2171,9 +2043,15 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/10973461/message</name>
+  <name>/components/1/event_groups/default/events/11078412/message</name>
   <message>
-  <source>Geofence invalid, doesn't contain Home position</source>
+  <source>Use EKF2_DRAG_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/11078412/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -2186,12 +2064,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/11123101/message</name>
   <message>
   <source>Connection to mission computer lost</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/11174541/message</name>
-  <message>
-  <source>Hardware fault: Camera capture disabled</source>
   </message>
 </context>
 <context>
@@ -2210,7 +2082,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/11290563/message</name>
   <message>
-  <source>Kill engaged</source>
+  <source>Kill-switch engaged</source>
   </message>
 </context>
 <context>
@@ -2274,12 +2146,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/12117072/message</name>
-  <message>
-  <source>Transponder System Failure</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/12140426/message</name>
   <message>
   <source>EKF2_MAG_TYPE invalid, resetting to default</source>
@@ -2288,7 +2154,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/12140426/description</name>
   <message>
-  <source>&lt;param&gt;EKF2_MAG_TYPE&lt;/param&gt; is set to {1:.0}.</source>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -2376,12 +2242,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/1290073/message</name>
-  <message>
-  <source>IO RC config upload failed, aborting initialization</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/12957883/message</name>
   <message>
   <source>Start descending</source>
@@ -2403,6 +2263,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/13378512/message</name>
   <message>
   <source>Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/13439583/message</name>
+  <message>
+  <source>EV vertical position enabled by EKF2_HGT_REF</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/13439583/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_EV_CTRL&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -2478,9 +2350,39 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/14188249/message</name>
+  <message>
+  <source>Range enabled by EKF2_HGT_REF</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/14188249/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_RNG_CTRL&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/14234660/message</name>
   <message>
   <source>GCS connection regained</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/14380058/message</name>
+  <message>
+  <source>Use EKF2_GPS_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/14380058/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/1438136/message</name>
+  <message>
+  <source>Geofence: maximum distance from home reached ({1:.0m})</source>
   </message>
 </context>
 <context>
@@ -2593,12 +2495,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/15536452/message</name>
-  <message>
-  <source>External mode is unresponsive, falling back to internal</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/15598001/message</name>
   <message>
   <source>Executing Mission</source>
@@ -2644,12 +2540,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/15909593/description</name>
   <message>
   <source>&lt;param&gt;MPC_XY_CRUISE&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/15923029/message</name>
-  <message>
-  <source>IO protocol/firmware mismatch, aborting initialization</source>
   </message>
 </context>
 <context>
@@ -2721,7 +2611,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/16682655/message</name>
   <message>
-  <source>Kill disengaged</source>
+  <source>Kill-switch disengaged</source>
   </message>
 </context>
 <context>
@@ -2790,6 +2680,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/2087806/message</name>
   <message>
   <source>Orbit radius limit exceeded</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2225852/message</name>
+  <message>
+  <source>Use EKF2_OF_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2225852/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -2889,6 +2791,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/3386258/message</name>
+  <message>
+  <source>GPS lon/lat is required for altitude fusion</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/3386258/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_GPS_CTRL&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/3390156/message</name>
   <message>
   <source>No valid mission available, loitering</source>
@@ -2910,6 +2824,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/3484900/message</name>
   <message>
   <source>Returning to launch</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/3592387/message</name>
+  <message>
+  <source>Use EKF2_IMU_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/3592387/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -3007,12 +2933,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/439666/message</name>
   <message>
   <source>Ignoring mission item, no transfer in progress</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/4472241/message</name>
-  <message>
-  <source>IO config read failed, aborting initialization</source>
   </message>
 </context>
 <context>
@@ -3123,12 +3043,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/5158211/message</name>
   <message>
   <source>No airspeed sensor detected, switching to non-airspeed mode</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/5334836/message</name>
-  <message>
-  <source>Hardware fault: GPS PPS disabled</source>
   </message>
 </context>
 <context>
@@ -3350,6 +3264,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/7293273/message</name>
+  <message>
+  <source>Use EKF2_EV_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/7293273/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/7714236/message</name>
   <message>
   <source>Approaching max flight time (system will RTL in {1} seconds)</source>
@@ -3386,15 +3312,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/8208988/message</name>
+  <name>/components/1/event_groups/default/events/7867944/message</name>
   <message>
-  <source>Climb to {1:.1m_v} above home</source>
+  <source>GPS enabled by EKF2_HGT_REF</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/8275181/message</name>
+  <name>/components/1/event_groups/default/events/7867944/description</name>
   <message>
-  <source>Transponder Failure</source>
+  <source>&lt;param&gt;EKF2_GPS_CTRL&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/8208988/message</name>
+  <message>
+  <source>Climb to {1:.1m_v} above home</source>
   </message>
 </context>
 <context>
@@ -3476,6 +3408,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/8858122/message</name>
+  <message>
+  <source>Baro enabled by EKF2_HGT_REF</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/8858122/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_BARO_CTRL&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/8865457/message</name>
   <message>
   <source>Geofence: import error</source>
@@ -3485,12 +3429,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/8894709/message</name>
   <message>
   <source>Mission rejected: the landing point must be outside the orbit radius</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/8912808/message</name>
-  <message>
-  <source>Failed to communicate with IO, aborting initialization</source>
   </message>
 </context>
 <context>
@@ -3551,6 +3489,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/9370229/message</name>
+  <message>
+  <source>Geofence: maximum altitude above home reached ({1:.0m_v})</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/9421773/message</name>
   <message>
   <source>Baro sensor #{1} failure: {2}</source>
@@ -3566,12 +3510,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9427265/message</name>
   <message>
   <source>Mission could not reset jump count</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/9432105/message</name>
-  <message>
-  <source>Geofence invalid, doesn't contain current vehicle position</source>
   </message>
 </context>
 <context>

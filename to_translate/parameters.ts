@@ -873,6 +873,17730 @@
   </message>
 </context>
 <context>
+  <name>/parameters/I2C_EC_DIS1/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 1 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS2/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 2 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS3/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 3 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS4/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 4 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS5/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 5 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS6/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 6 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS7/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 7 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS8/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 8 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_DIS8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL1/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 1 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC1).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL2/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 2 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC2).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL3/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 3 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC3).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL4/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 4 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC4).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL5/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 5 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC5).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL6/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 6 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC6).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL7/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 7 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC7).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL8/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 8 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FAIL8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_EC_FUNC8).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 1 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC1/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 2 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC2/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 3 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC3/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 4 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC4/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 5 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC5/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 6 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC6/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 7 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC7/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 8 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT ESC 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_FUNC8/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX1/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 1 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX1/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX2/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 2 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX2/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX3/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 3 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX3/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX4/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 4 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX4/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX5/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 5 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX5/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX6/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 6 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX6/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX7/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 7 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX7/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX8/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 8 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MAX8/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN1/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 1 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN1/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN2/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 2 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN2/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN3/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 3 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN3/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN4/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 4 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN4/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN5/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 5 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN5/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN6/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 6 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN6/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN7/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 7 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN7/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN8/shortDesc</name>
+  <message>
+  <source>I2C_OUT ESC 8 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_MIN8/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/shortDesc</name>
+  <message>
+  <source>Reverse Output Range for I2C_OUT</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/longDesc</name>
+  <message>
+  <source>Allows to reverse the output range for each channel. Note: this is only useful for servos.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/0/description</name>
+  <message>
+  <source>I2C_OUT ESC 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/1/description</name>
+  <message>
+  <source>I2C_OUT ESC 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/2/description</name>
+  <message>
+  <source>I2C_OUT ESC 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/3/description</name>
+  <message>
+  <source>I2C_OUT ESC 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/4/description</name>
+  <message>
+  <source>I2C_OUT ESC 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/5/description</name>
+  <message>
+  <source>I2C_OUT ESC 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/6/description</name>
+  <message>
+  <source>I2C_OUT ESC 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_EC_REV/bitmask/7/description</name>
+  <message>
+  <source>I2C_OUT ESC 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS1/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 1 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS2/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 2 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS3/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 3 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS4/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 4 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS5/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 5 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS6/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 6 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS7/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 7 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS8/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 8 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_DIS8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL1/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 1 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC1).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL2/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 2 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC2).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL3/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 3 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC3).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL4/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 4 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC4).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL5/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 5 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC5).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL6/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 6 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC6).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL7/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 7 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC7).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL8/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 8 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FAIL8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see I2C_SV_FUNC8).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 1 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC1/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 2 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC2/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 3 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC3/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 4 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC4/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 5 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC5/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 6 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC6/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 7 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC7/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 8 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/longDesc</name>
+  <message>
+  <source>Select what should be output on I2C_OUT Servo 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_FUNC8/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX1/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 1 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX1/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX2/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 2 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX2/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX3/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 3 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX3/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX4/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 4 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX4/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX5/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 5 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX5/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX6/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 6 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX6/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX7/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 7 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX7/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX8/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 8 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MAX8/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN1/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 1 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN1/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN2/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 2 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN2/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN3/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 3 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN3/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN4/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 4 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN4/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN5/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 5 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN5/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN6/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 6 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN6/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN7/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 7 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN7/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN8/shortDesc</name>
+  <message>
+  <source>I2C_OUT Servo 8 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_MIN8/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/shortDesc</name>
+  <message>
+  <source>Reverse Output Range for I2C_OUT</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/longDesc</name>
+  <message>
+  <source>Allows to reverse the output range for each channel. Note: this is only useful for servos.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/0/description</name>
+  <message>
+  <source>I2C_OUT Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/1/description</name>
+  <message>
+  <source>I2C_OUT Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/2/description</name>
+  <message>
+  <source>I2C_OUT Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/3/description</name>
+  <message>
+  <source>I2C_OUT Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/4/description</name>
+  <message>
+  <source>I2C_OUT Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/5/description</name>
+  <message>
+  <source>I2C_OUT Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/6/description</name>
+  <message>
+  <source>I2C_OUT Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/I2C_SV_REV/bitmask/7/description</name>
+  <message>
+  <source>I2C_OUT Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/shortDesc</name>
+  <message>
+  <source>SIM Channel 1 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/shortDesc</name>
+  <message>
+  <source>SIM Channel 10 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 10. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/shortDesc</name>
+  <message>
+  <source>SIM Channel 11 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 11. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/shortDesc</name>
+  <message>
+  <source>SIM Channel 12 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 12. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/shortDesc</name>
+  <message>
+  <source>SIM Channel 13 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 13. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/shortDesc</name>
+  <message>
+  <source>SIM Channel 14 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 14. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/shortDesc</name>
+  <message>
+  <source>SIM Channel 15 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/shortDesc</name>
+  <message>
+  <source>SIM Channel 16 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 16. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/shortDesc</name>
+  <message>
+  <source>SIM Channel 2 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/shortDesc</name>
+  <message>
+  <source>SIM Channel 3 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/shortDesc</name>
+  <message>
+  <source>SIM Channel 4 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/shortDesc</name>
+  <message>
+  <source>SIM Channel 5 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/shortDesc</name>
+  <message>
+  <source>SIM Channel 6 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/shortDesc</name>
+  <message>
+  <source>SIM Channel 7 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/shortDesc</name>
+  <message>
+  <source>SIM Channel 8 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/shortDesc</name>
+  <message>
+  <source>SIM Channel 9 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM Channel 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/shortDesc</name>
+  <message>
+  <source>Reverse Output Range for SIM</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/longDesc</name>
+  <message>
+  <source>Allows to reverse the output range for each channel. Note: this is only useful for servos.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/0/description</name>
+  <message>
+  <source>SIM Channel 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/1/description</name>
+  <message>
+  <source>SIM Channel 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/2/description</name>
+  <message>
+  <source>SIM Channel 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/3/description</name>
+  <message>
+  <source>SIM Channel 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/4/description</name>
+  <message>
+  <source>SIM Channel 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/5/description</name>
+  <message>
+  <source>SIM Channel 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/6/description</name>
+  <message>
+  <source>SIM Channel 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/7/description</name>
+  <message>
+  <source>SIM Channel 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/8/description</name>
+  <message>
+  <source>SIM Channel 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/9/description</name>
+  <message>
+  <source>SIM Channel 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/10/description</name>
+  <message>
+  <source>SIM Channel 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/11/description</name>
+  <message>
+  <source>SIM Channel 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/12/description</name>
+  <message>
+  <source>SIM Channel 13</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/13/description</name>
+  <message>
+  <source>SIM Channel 14</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/14/description</name>
+  <message>
+  <source>SIM Channel 15</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_REV/bitmask/15/description</name>
+  <message>
+  <source>SIM Channel 16</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS1/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 1 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS2/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 2 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS3/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 3 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS4/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 4 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS5/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 5 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS6/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 6 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS7/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 7 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS8/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 8 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_DIS8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL1/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 1 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC1).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL2/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 2 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC2).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL3/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 3 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC3).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL4/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 4 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC4).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL5/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 5 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC5).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL6/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 6 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC6).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL7/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 7 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC7).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL8/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 8 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FAIL8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_EC_FUNC8).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 1 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC1/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 2 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC2/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 3 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC3/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 4 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC4/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 5 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC5/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 6 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC6/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 7 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC7/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 8 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ ESC 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_FUNC8/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX1/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 1 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX1/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX2/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 2 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX2/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX3/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 3 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX3/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX4/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 4 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX4/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX5/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 5 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX5/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX6/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 6 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX6/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX7/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 7 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX7/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX8/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 8 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MAX8/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN1/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 1 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN1/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN2/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 2 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN2/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN3/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 3 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN3/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN4/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 4 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN4/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN5/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 5 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN5/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN6/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 6 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN6/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN7/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 7 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN7/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN8/shortDesc</name>
+  <message>
+  <source>SIM_GZ ESC 8 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_MIN8/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/shortDesc</name>
+  <message>
+  <source>Reverse Output Range for SIM_GZ</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/longDesc</name>
+  <message>
+  <source>Allows to reverse the output range for each channel. Note: this is only useful for servos.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/0/description</name>
+  <message>
+  <source>SIM_GZ ESC 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/1/description</name>
+  <message>
+  <source>SIM_GZ ESC 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/2/description</name>
+  <message>
+  <source>SIM_GZ ESC 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/3/description</name>
+  <message>
+  <source>SIM_GZ ESC 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/4/description</name>
+  <message>
+  <source>SIM_GZ ESC 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/5/description</name>
+  <message>
+  <source>SIM_GZ ESC 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/6/description</name>
+  <message>
+  <source>SIM_GZ ESC 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_EC_REV/bitmask/7/description</name>
+  <message>
+  <source>SIM_GZ ESC 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS1/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 1 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS2/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 2 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 3 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 4 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS5/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 5 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS6/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 6 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS7/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 7 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS8/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 8 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_DIS8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL1/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 1 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC1).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL2/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 2 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC2).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 3 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC3).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 4 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC4).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL5/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 5 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC5).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL6/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 6 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC6).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL7/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 7 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC7).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL8/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 8 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FAIL8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_SV_FUNC8).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 1 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC1/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 2 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC2/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 3 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC3/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 4 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC4/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 5 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC5/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 6 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC6/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 7 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC7/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 8 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Servo 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/301/description</name>
+  <message>
+  <source>Offboard Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/302/description</name>
+  <message>
+  <source>Offboard Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/303/description</name>
+  <message>
+  <source>Offboard Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/304/description</name>
+  <message>
+  <source>Offboard Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/305/description</name>
+  <message>
+  <source>Offboard Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/306/description</name>
+  <message>
+  <source>Offboard Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/10003/description</name>
+  <message>
+  <source>TVMD Module 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/10004/description</name>
+  <message>
+  <source>TVMD Module 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/10005/description</name>
+  <message>
+  <source>TVMD Module 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/10006/description</name>
+  <message>
+  <source>TVMD Module 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/10007/description</name>
+  <message>
+  <source>TVMD Module 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_FUNC8/values/10008/description</name>
+  <message>
+  <source>TVMD Module 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX1/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 1 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX1/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX2/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 2 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX2/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 3 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX3/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 4 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX4/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX5/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 5 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX5/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX6/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 6 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX6/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX7/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 7 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX7/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX8/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 8 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MAX8/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN1/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 1 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN1/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN2/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 2 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN2/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 3 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN3/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 4 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN4/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN5/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 5 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN5/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN6/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 6 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN6/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN7/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 7 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN7/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN8/shortDesc</name>
+  <message>
+  <source>SIM_GZ Servo 8 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_MIN8/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/shortDesc</name>
+  <message>
+  <source>Reverse Output Range for SIM_GZ</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/longDesc</name>
+  <message>
+  <source>Allows to reverse the output range for each channel. Note: this is only useful for servos.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/0/description</name>
+  <message>
+  <source>SIM_GZ Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/1/description</name>
+  <message>
+  <source>SIM_GZ Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/2/description</name>
+  <message>
+  <source>SIM_GZ Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/3/description</name>
+  <message>
+  <source>SIM_GZ Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/4/description</name>
+  <message>
+  <source>SIM_GZ Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/5/description</name>
+  <message>
+  <source>SIM_GZ Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/6/description</name>
+  <message>
+  <source>SIM_GZ Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_SV_REV/bitmask/7/description</name>
+  <message>
+  <source>SIM_GZ Servo 8</source>
+  </message>
+</context>
+<context>
   <name>/parameters/ASPD_BETA_GATE/shortDesc</name>
   <message>
   <source>Gate size for sideslip angle fusion</source>
@@ -1509,9 +19233,423 @@
   </message>
 </context>
 <context>
-  <name>/parameters/BAT_ADC_CHANNEL/shortDesc</name>
+  <name>/parameters/BAT1_CAPACITY/shortDesc</name>
   <message>
-  <source>This parameter is deprecated. Please use BAT1_I_CHANNEL</source>
+  <source>Battery 1 capacity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_CAPACITY/longDesc</name>
+  <message>
+  <source>Defines the capacity of battery 1 in mAh.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/shortDesc</name>
+  <message>
+  <source>Number of cells for battery 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/longDesc</name>
+  <message>
+  <source>Defines the number of cells the attached battery consists of.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/0/description</name>
+  <message>
+  <source>Unknown</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/1/description</name>
+  <message>
+  <source>1S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/2/description</name>
+  <message>
+  <source>2S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/3/description</name>
+  <message>
+  <source>3S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/4/description</name>
+  <message>
+  <source>4S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/5/description</name>
+  <message>
+  <source>5S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/6/description</name>
+  <message>
+  <source>6S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/7/description</name>
+  <message>
+  <source>7S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/8/description</name>
+  <message>
+  <source>8S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/9/description</name>
+  <message>
+  <source>9S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/10/description</name>
+  <message>
+  <source>10S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/11/description</name>
+  <message>
+  <source>11S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/12/description</name>
+  <message>
+  <source>12S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/13/description</name>
+  <message>
+  <source>13S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/14/description</name>
+  <message>
+  <source>14S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/15/description</name>
+  <message>
+  <source>15S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_N_CELLS/values/16/description</name>
+  <message>
+  <source>16S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_R_INTERNAL/shortDesc</name>
+  <message>
+  <source>Explicitly defines the per cell internal resistance for battery 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_R_INTERNAL/longDesc</name>
+  <message>
+  <source>If non-negative, then this will be used in place of BAT1_V_LOAD_DROP for all calculations.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_SOURCE/shortDesc</name>
+  <message>
+  <source>Battery 1 monitoring source</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_SOURCE/longDesc</name>
+  <message>
+  <source>This parameter controls the source of battery data. The value 'Power Module' means that measurements are expected to come from a power module. If the value is set to 'External' then the system expects to receive mavlink battery status messages. If the value is set to 'ESCs', the battery information are taken from the esc_status message. This requires the ESC to provide both voltage as well as current.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_SOURCE/values/-1/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_SOURCE/values/0/description</name>
+  <message>
+  <source>Power Module</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_SOURCE/values/1/description</name>
+  <message>
+  <source>External</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_SOURCE/values/2/description</name>
+  <message>
+  <source>ESCs</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_V_CHARGED/shortDesc</name>
+  <message>
+  <source>Full cell voltage (5C load)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_V_CHARGED/longDesc</name>
+  <message>
+  <source>Defines the voltage where a single cell of battery 1 is considered full under a mild load. This will never be the nominal voltage of 4.2V</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_V_EMPTY/shortDesc</name>
+  <message>
+  <source>Empty cell voltage (5C load)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_V_EMPTY/longDesc</name>
+  <message>
+  <source>Defines the voltage where a single cell of battery 1 is considered empty. The voltage should be chosen before the steep dropoff to 2.8V. A typical lithium battery can only be discharged down to 10% before it drops off to a voltage level damaging the cells.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_V_LOAD_DROP/shortDesc</name>
+  <message>
+  <source>Voltage drop per cell on full throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT1_V_LOAD_DROP/longDesc</name>
+  <message>
+  <source>This implicitly defines the internal resistance to maximum current ratio for battery 1 and assumes linearity. A good value to use is the difference between the 5C and 20-25C load. Not used if BAT1_R_INTERNAL is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_CAPACITY/shortDesc</name>
+  <message>
+  <source>Battery 2 capacity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_CAPACITY/longDesc</name>
+  <message>
+  <source>Defines the capacity of battery 2 in mAh.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/shortDesc</name>
+  <message>
+  <source>Number of cells for battery 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/longDesc</name>
+  <message>
+  <source>Defines the number of cells the attached battery consists of.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/0/description</name>
+  <message>
+  <source>Unknown</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/1/description</name>
+  <message>
+  <source>1S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/2/description</name>
+  <message>
+  <source>2S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/3/description</name>
+  <message>
+  <source>3S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/4/description</name>
+  <message>
+  <source>4S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/5/description</name>
+  <message>
+  <source>5S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/6/description</name>
+  <message>
+  <source>6S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/7/description</name>
+  <message>
+  <source>7S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/8/description</name>
+  <message>
+  <source>8S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/9/description</name>
+  <message>
+  <source>9S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/10/description</name>
+  <message>
+  <source>10S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/11/description</name>
+  <message>
+  <source>11S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/12/description</name>
+  <message>
+  <source>12S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/13/description</name>
+  <message>
+  <source>13S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/14/description</name>
+  <message>
+  <source>14S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/15/description</name>
+  <message>
+  <source>15S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_N_CELLS/values/16/description</name>
+  <message>
+  <source>16S Battery</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_R_INTERNAL/shortDesc</name>
+  <message>
+  <source>Explicitly defines the per cell internal resistance for battery 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_R_INTERNAL/longDesc</name>
+  <message>
+  <source>If non-negative, then this will be used in place of BAT2_V_LOAD_DROP for all calculations.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_SOURCE/shortDesc</name>
+  <message>
+  <source>Battery 2 monitoring source</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_SOURCE/longDesc</name>
+  <message>
+  <source>This parameter controls the source of battery data. The value 'Power Module' means that measurements are expected to come from a power module. If the value is set to 'External' then the system expects to receive mavlink battery status messages. If the value is set to 'ESCs', the battery information are taken from the esc_status message. This requires the ESC to provide both voltage as well as current.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_SOURCE/values/-1/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_SOURCE/values/0/description</name>
+  <message>
+  <source>Power Module</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_SOURCE/values/1/description</name>
+  <message>
+  <source>External</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_SOURCE/values/2/description</name>
+  <message>
+  <source>ESCs</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_V_CHARGED/shortDesc</name>
+  <message>
+  <source>Full cell voltage (5C load)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_V_CHARGED/longDesc</name>
+  <message>
+  <source>Defines the voltage where a single cell of battery 1 is considered full under a mild load. This will never be the nominal voltage of 4.2V</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_V_EMPTY/shortDesc</name>
+  <message>
+  <source>Empty cell voltage (5C load)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_V_EMPTY/longDesc</name>
+  <message>
+  <source>Defines the voltage where a single cell of battery 1 is considered empty. The voltage should be chosen before the steep dropoff to 2.8V. A typical lithium battery can only be discharged down to 10% before it drops off to a voltage level damaging the cells.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_V_LOAD_DROP/shortDesc</name>
+  <message>
+  <source>Voltage drop per cell on full throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BAT2_V_LOAD_DROP/longDesc</name>
+  <message>
+  <source>This implicitly defines the internal resistance to maximum current ratio for battery 1 and assumes linearity. A good value to use is the difference between the 5C and 20-25C load. Not used if BAT2_R_INTERNAL is set.</source>
   </message>
 </context>
 <context>
@@ -1584,102 +19722,6 @@
   <name>/parameters/BAT_V_LOAD_DROP/shortDesc</name>
   <message>
   <source>This parameter is deprecated. Please use BAT1_V_LOAD_DROP instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_OFFS_CURR/shortDesc</name>
-  <message>
-  <source>Offset in volt as seen by the ADC input of the current sensor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_OFFS_CURR/longDesc</name>
-  <message>
-  <source>This offset will be subtracted before calculating the battery current based on the voltage.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_DELAY/shortDesc</name>
-  <message>
-  <source>Camera strobe delay</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_DELAY/longDesc</name>
-  <message>
-  <source>This parameter sets the delay between image integration start and strobe firing</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_EDGE/shortDesc</name>
-  <message>
-  <source>Camera capture edge</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_EDGE/values/0/description</name>
-  <message>
-  <source>Falling edge</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_EDGE/values/1/description</name>
-  <message>
-  <source>Rising edge</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_FBACK/shortDesc</name>
-  <message>
-  <source>Camera capture feedback</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_FBACK/longDesc</name>
-  <message>
-  <source>Enables camera capture feedback</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_FBACK/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_FBACK/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_MODE/shortDesc</name>
-  <message>
-  <source>Camera capture timestamping mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_MODE/longDesc</name>
-  <message>
-  <source>Change time measurement</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_MODE/values/0/description</name>
-  <message>
-  <source>Get absolute timestamp</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_MODE/values/1/description</name>
-  <message>
-  <source>Get timestamp of mid exposure (active high)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CAM_CAP_MODE/values/2/description</name>
-  <message>
-  <source>Get timestamp of mid exposure (active low)</source>
   </message>
 </context>
 <context>
@@ -2349,30 +20391,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/COM_DISARM_MAN/shortDesc</name>
-  <message>
-  <source>Allow disarming via switch/stick/button on multicopters in manual thrust modes</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_DISARM_MAN/longDesc</name>
-  <message>
-  <source>0: Disallow disarming when not landed 1: Allow disarming in multicopter flight in modes where the thrust is directly controlled by thr throttle stick e.g. Stabilized, Acro</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_DISARM_MAN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_DISARM_MAN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/COM_DISARM_PRFLT/shortDesc</name>
   <message>
   <source>Time-out for auto disarm if not taking off</source>
@@ -2418,6 +20436,582 @@
   <name>/parameters/COM_FLIGHT_UUID/longDesc</name>
   <message>
   <source>This number is incremented automatically after every flight on disarming in order to remember the next flight UUID. The first flight is 0.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/shortDesc</name>
+  <message>
+  <source>First flightmode slot (1000-1160)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/longDesc</name>
+  <message>
+  <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/-1/description</name>
+  <message>
+  <source>Unassigned</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/0/description</name>
+  <message>
+  <source>Manual</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/1/description</name>
+  <message>
+  <source>Altitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/2/description</name>
+  <message>
+  <source>Position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/3/description</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/4/description</name>
+  <message>
+  <source>Hold</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/5/description</name>
+  <message>
+  <source>Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/6/description</name>
+  <message>
+  <source>Acro</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/7/description</name>
+  <message>
+  <source>Offboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/8/description</name>
+  <message>
+  <source>Stabilized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/10/description</name>
+  <message>
+  <source>Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/11/description</name>
+  <message>
+  <source>Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/12/description</name>
+  <message>
+  <source>Follow Me</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/13/description</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/shortDesc</name>
+  <message>
+  <source>Second flightmode slot (1160-1320)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/longDesc</name>
+  <message>
+  <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/-1/description</name>
+  <message>
+  <source>Unassigned</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/0/description</name>
+  <message>
+  <source>Manual</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/1/description</name>
+  <message>
+  <source>Altitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/2/description</name>
+  <message>
+  <source>Position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/3/description</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/4/description</name>
+  <message>
+  <source>Hold</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/5/description</name>
+  <message>
+  <source>Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/6/description</name>
+  <message>
+  <source>Acro</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/7/description</name>
+  <message>
+  <source>Offboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/8/description</name>
+  <message>
+  <source>Stabilized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/10/description</name>
+  <message>
+  <source>Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/11/description</name>
+  <message>
+  <source>Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/12/description</name>
+  <message>
+  <source>Follow Me</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE2/values/13/description</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/shortDesc</name>
+  <message>
+  <source>Third flightmode slot (1320-1480)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/longDesc</name>
+  <message>
+  <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/-1/description</name>
+  <message>
+  <source>Unassigned</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/0/description</name>
+  <message>
+  <source>Manual</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/1/description</name>
+  <message>
+  <source>Altitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/2/description</name>
+  <message>
+  <source>Position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/3/description</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/4/description</name>
+  <message>
+  <source>Hold</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/5/description</name>
+  <message>
+  <source>Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/6/description</name>
+  <message>
+  <source>Acro</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/7/description</name>
+  <message>
+  <source>Offboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/8/description</name>
+  <message>
+  <source>Stabilized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/10/description</name>
+  <message>
+  <source>Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/11/description</name>
+  <message>
+  <source>Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/12/description</name>
+  <message>
+  <source>Follow Me</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/13/description</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/shortDesc</name>
+  <message>
+  <source>Fourth flightmode slot (1480-1640)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/longDesc</name>
+  <message>
+  <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/-1/description</name>
+  <message>
+  <source>Unassigned</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/0/description</name>
+  <message>
+  <source>Manual</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/1/description</name>
+  <message>
+  <source>Altitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/2/description</name>
+  <message>
+  <source>Position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/3/description</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/4/description</name>
+  <message>
+  <source>Hold</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/5/description</name>
+  <message>
+  <source>Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/6/description</name>
+  <message>
+  <source>Acro</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/7/description</name>
+  <message>
+  <source>Offboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/8/description</name>
+  <message>
+  <source>Stabilized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/10/description</name>
+  <message>
+  <source>Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/11/description</name>
+  <message>
+  <source>Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/12/description</name>
+  <message>
+  <source>Follow Me</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE4/values/13/description</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/shortDesc</name>
+  <message>
+  <source>Fifth flightmode slot (1640-1800)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/longDesc</name>
+  <message>
+  <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/-1/description</name>
+  <message>
+  <source>Unassigned</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/0/description</name>
+  <message>
+  <source>Manual</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/1/description</name>
+  <message>
+  <source>Altitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/2/description</name>
+  <message>
+  <source>Position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/3/description</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/4/description</name>
+  <message>
+  <source>Hold</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/5/description</name>
+  <message>
+  <source>Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/6/description</name>
+  <message>
+  <source>Acro</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/7/description</name>
+  <message>
+  <source>Offboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/8/description</name>
+  <message>
+  <source>Stabilized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/10/description</name>
+  <message>
+  <source>Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/11/description</name>
+  <message>
+  <source>Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/12/description</name>
+  <message>
+  <source>Follow Me</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE5/values/13/description</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/shortDesc</name>
+  <message>
+  <source>Sixth flightmode slot (1800-2000)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/longDesc</name>
+  <message>
+  <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/-1/description</name>
+  <message>
+  <source>Unassigned</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/0/description</name>
+  <message>
+  <source>Manual</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/1/description</name>
+  <message>
+  <source>Altitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/2/description</name>
+  <message>
+  <source>Position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/3/description</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/4/description</name>
+  <message>
+  <source>Hold</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/5/description</name>
+  <message>
+  <source>Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/6/description</name>
+  <message>
+  <source>Acro</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/7/description</name>
+  <message>
+  <source>Offboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/8/description</name>
+  <message>
+  <source>Stabilized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/10/description</name>
+  <message>
+  <source>Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/11/description</name>
+  <message>
+  <source>Land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/12/description</name>
+  <message>
+  <source>Follow Me</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/13/description</name>
+  <message>
+  <source>Precision Land</source>
   </message>
 </context>
 <context>
@@ -3297,126 +21891,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/CYPHAL_BAUD/shortDesc</name>
-  <message>
-  <source>UAVCAN/CAN v1 bus bitrate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CYPHAL_ENABLE/shortDesc</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CYPHAL_ENABLE/longDesc</name>
-  <message>
-  <source>0 - Cyphal disabled. 1 - Enables Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CYPHAL_ENABLE/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CYPHAL_ENABLE/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CYPHAL_ID/shortDesc</name>
-  <message>
-  <source>Cyphal Node ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CYPHAL_ID/longDesc</name>
-  <message>
-  <source>Read the specs at http://uavcan.org to learn more about Node ID.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_ACTR_PUB/shortDesc</name>
-  <message>
-  <source>actuator_outputs uORB over Cyphal publication port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_BMS_BP_SUB/shortDesc</name>
-  <message>
-  <source>UDRAL battery parameters subscription  port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_BMS_BS_SUB/shortDesc</name>
-  <message>
-  <source>UDRAL battery status subscription port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_BMS_ES_SUB/shortDesc</name>
-  <message>
-  <source>UDRAL battery energy source subscription port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_ESC0_SUB/shortDesc</name>
-  <message>
-  <source>ESC 0 subscription port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_ESC_PUB/shortDesc</name>
-  <message>
-  <source>Cyphal ESC publication port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_GPS0_SUB/shortDesc</name>
-  <message>
-  <source>GPS 0 subscription port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_GPS1_SUB/shortDesc</name>
-  <message>
-  <source>GPS 1 subscription port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_GPS_PUB/shortDesc</name>
-  <message>
-  <source>Cyphal GPS publication port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_LG_BMS_SUB/shortDesc</name>
-  <message>
-  <source>Cyphal legacy battery port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_SERVO_PUB/shortDesc</name>
-  <message>
-  <source>Cyphal Servo publication port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_UORB_GPS/shortDesc</name>
-  <message>
-  <source>sensor_gps uORB over Cyphal subscription port ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UCAN1_UORB_GPS_P/shortDesc</name>
-  <message>
-  <source>sensor_gps uORB over Cyphal publication port ID</source>
-  </message>
-</context>
-<context>
   <name>/parameters/EKF2_ABIAS_INIT/shortDesc</name>
   <message>
   <source>1-sigma IMU accelerometer switch-on bias</source>
@@ -3431,7 +21905,7 @@
 <context>
   <name>/parameters/EKF2_ABL_ACCLIM/longDesc</name>
   <message>
-  <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</source>
+  <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF delta velocity state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the delta velocity bias estimates.</source>
   </message>
 </context>
 <context>
@@ -3443,7 +21917,7 @@
 <context>
   <name>/parameters/EKF2_ABL_GYRLIM/longDesc</name>
   <message>
-  <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.</source>
+  <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF delta velocity state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the delta velocity bias estimates.</source>
   </message>
 </context>
 <context>
@@ -3455,13 +21929,13 @@
 <context>
   <name>/parameters/EKF2_ABL_LIM/longDesc</name>
   <message>
-  <source>The ekf accel bias states will be limited to within a range equivalent to +- of this value.</source>
+  <source>The ekf delta velocity bias states will be limited to within a range equivalent to +- of this value.</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_ABL_TAU/shortDesc</name>
   <message>
-  <source>Time constant used by acceleration and angular rate magnitude checks used to inhibit accel bias learning</source>
+  <source>Time constant used by acceleration and angular rate magnitude checks used to inhibit delta velocity bias learning</source>
   </message>
 </context>
 <context>
@@ -3480,6 +21954,72 @@
   <name>/parameters/EKF2_ACC_NOISE/shortDesc</name>
   <message>
   <source>Accelerometer noise for covariance prediction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/shortDesc</name>
+  <message>
+  <source>Will be removed after v1.14 release</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/longDesc</name>
+  <message>
+  <source>Set bits in the following positions to enable: 0 : Deprecated, use EKF2_GPS_CTRL instead 1 : Deprecated. use EKF2_OF_CTRL instead 2 : Deprecated, use EKF2_IMU_CTRL instead 3 : Deprecated, use EKF2_EV_CTRL instead 4 : Deprecated, use EKF2_EV_CTRL instead 5 : Deprecated. use EKF2_DRAG_CTRL instead 6 : Deprecated, use EKF2_EV_CTRL instead 7 : Deprecated, use EKF2_GPS_CTRL instead 8 : Deprecated, use EKF2_EV_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/0/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/1/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/2/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/3/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/4/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/5/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/6/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/7/description</name>
+  <message>
+  <source>unused</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AID_MASK/bitmask/8/description</name>
+  <message>
+  <source>unused</source>
   </message>
 </context>
 <context>
@@ -4001,7 +22541,7 @@
 <context>
   <name>/parameters/EKF2_GPS_P_GATE/shortDesc</name>
   <message>
-  <source>Gate size for GNSS position fusion</source>
+  <source>Gate size for GPS horizontal position fusion</source>
   </message>
 </context>
 <context>
@@ -4013,13 +22553,13 @@
 <context>
   <name>/parameters/EKF2_GPS_P_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for GNSS position</source>
+  <source>Measurement noise for gps position</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_V_GATE/shortDesc</name>
   <message>
-  <source>Gate size for GNSS velocity fusion</source>
+  <source>Gate size for GPS velocity fusion</source>
   </message>
 </context>
 <context>
@@ -4031,7 +22571,7 @@
 <context>
   <name>/parameters/EKF2_GPS_V_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for GNSS velocity</source>
+  <source>Measurement noise for gps horizontal velocity</source>
   </message>
 </context>
 <context>
@@ -4061,7 +22601,7 @@
 <context>
   <name>/parameters/EKF2_GYR_B_LIM/longDesc</name>
   <message>
-  <source>The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</source>
+  <source>The ekf delta angle bias states will be limited to within a range equivalent to +- of this value.</source>
   </message>
 </context>
 <context>
@@ -4905,24 +23445,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/ESC_BL_VER/shortDesc</name>
-  <message>
-  <source>Required esc bootloader version</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ESC_FW_VER/shortDesc</name>
-  <message>
-  <source>Required esc firmware version</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ESC_HW_VER/shortDesc</name>
-  <message>
-  <source>Required esc hardware version</source>
-  </message>
-</context>
-<context>
   <name>/parameters/EV_TSK_RC_LOSS/shortDesc</name>
   <message>
   <source>RC Loss Alarm</source>
@@ -5691,150 +24213,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_AIRSPD_MAX/shortDesc</name>
-  <message>
-  <source>Maximum Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
-  <message>
-  <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MIN/shortDesc</name>
-  <message>
-  <source>Minimum Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
-  <message>
-  <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_STALL/shortDesc</name>
-  <message>
-  <source>Stall Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_STALL/longDesc</name>
-  <message>
-  <source>The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_TRIM/shortDesc</name>
-  <message>
-  <source>Trim (Cruise) Airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_TRIM/longDesc</name>
-  <message>
-  <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve. This value corresponds to the trim airspeed with the default load factor (level flight, default weight).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_SERVICE_CEIL/shortDesc</name>
-  <message>
-  <source>Service ceiling</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_SERVICE_CEIL/longDesc</name>
-  <message>
-  <source>Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
-  <message>
-  <source>Throttle at max airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
-  <message>
-  <source>Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
-  <message>
-  <source>Throttle at min airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
-  <message>
-  <source>Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_TRIM/shortDesc</name>
-  <message>
-  <source>Trim throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_TRIM/longDesc</name>
-  <message>
-  <source>Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
-  <message>
-  <source>Maximum climb rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_CLMB_MAX/longDesc</name>
-  <message>
-  <source>This is the maximum calibrated climb rate that the aircraft can achieve with the throttle set to FW_THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
-  <message>
-  <source>Minimum descent rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SINK_MIN/longDesc</name>
-  <message>
-  <source>This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_BASE/shortDesc</name>
-  <message>
-  <source>Vehicle base weight</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_BASE/longDesc</name>
-  <message>
-  <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_GROSS/shortDesc</name>
-  <message>
-  <source>Vehicle gross weight</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_GROSS/longDesc</name>
-  <message>
-  <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_ACRO_X_MAX/shortDesc</name>
   <message>
   <source>Acro body roll max rate setpoint</source>
@@ -6237,6 +24615,54 @@
   </message>
 </context>
 <context>
+  <name>/parameters/FW_AIRSPD_MAX/shortDesc</name>
+  <message>
+  <source>Maximum Airspeed (CAS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
+  <message>
+  <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_MIN/shortDesc</name>
+  <message>
+  <source>Minimum Airspeed (CAS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
+  <message>
+  <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Should be set (with some margin) above the vehicle stall speed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adapated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_STALL/shortDesc</name>
+  <message>
+  <source>Stall Airspeed (CAS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_STALL/longDesc</name>
+  <message>
+  <source>The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_TRIM/shortDesc</name>
+  <message>
+  <source>Trim (Cruise) Airspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_TRIM/longDesc</name>
+  <message>
+  <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_GND_SPD_MIN/shortDesc</name>
   <message>
   <source>Minimum groundspeed</source>
@@ -6270,6 +24696,30 @@
   <name>/parameters/FW_P_LIM_MIN/longDesc</name>
   <message>
   <source>The minimum pitch angle setpoint for a height-rate or altitude controlled mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
+  <message>
+  <source>Throttle at max airspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
+  <message>
+  <source>Required throttle for level flight at maximum airspeed FW_AIRSPD_MAX (sea level, standard atmosphere) Set to 0 to disable mapping of airspeed to trim throttle.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
+  <message>
+  <source>Throttle at min airspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
+  <message>
+  <source>Required throttle for level flight at minimum airspeed FW_AIRSPD_MIN (sea level, standard atmosphere) Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
   </message>
 </context>
 <context>
@@ -6321,6 +24771,18 @@
   </message>
 </context>
 <context>
+  <name>/parameters/FW_THR_TRIM/shortDesc</name>
+  <message>
+  <source>Trim throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_TRIM/longDesc</name>
+  <message>
+  <source>This is the throttle setting required to achieve FW_AIRSPD_TRIM during level flight.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_TKO_AIRSPD/shortDesc</name>
   <message>
   <source>Takeoff Airspeed</source>
@@ -6336,6 +24798,18 @@
   <name>/parameters/FW_T_ALT_TC/shortDesc</name>
   <message>
   <source>Altitude error time constant</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
+  <message>
+  <source>Maximum climb rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_CLMB_MAX/longDesc</name>
+  <message>
+  <source>This is the maximum climb rate that the aircraft can achieve with the throttle set to THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</source>
   </message>
 </context>
 <context>
@@ -6420,6 +24894,18 @@
   <name>/parameters/FW_T_SINK_MAX/longDesc</name>
   <message>
   <source>This sets the maximum descent rate that the controller will use. If this value is too large, the aircraft can over-speed on descent. This should be set to a value that can be achieved without exceeding the lower pitch angle limit and without over-speeding the aircraft.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
+  <message>
+  <source>Minimum descent rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SINK_MIN/longDesc</name>
+  <message>
+  <source>This is the sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
   </message>
 </context>
 <context>
@@ -7233,30 +25719,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/PPS_CAP_ENABLE/shortDesc</name>
-  <message>
-  <source>PPS Capture Enable</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PPS_CAP_ENABLE/longDesc</name>
-  <message>
-  <source>Enables the PPS capture module. This switches mode of FMU channel 7 to be the PPS input channel.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PPS_CAP_ENABLE/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PPS_CAP_ENABLE/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/GF_ACTION/shortDesc</name>
   <message>
   <source>Geofence violation action</source>
@@ -7305,27 +25767,63 @@
   </message>
 </context>
 <context>
+  <name>/parameters/GF_ALTMODE/shortDesc</name>
+  <message>
+  <source>Geofence altitude mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_ALTMODE/longDesc</name>
+  <message>
+  <source>Select which altitude (AMSL) source should be used for geofence calculations.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_ALTMODE/values/0/description</name>
+  <message>
+  <source>Autopilot estimator global position altitude (GPS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_ALTMODE/values/1/description</name>
+  <message>
+  <source>Raw barometer altitude (assuming standard atmospheric pressure)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_COUNT/shortDesc</name>
+  <message>
+  <source>Geofence counter limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_COUNT/longDesc</name>
+  <message>
+  <source>Set how many subsequent position measurements outside of the fence are needed before geofence violation is triggered</source>
+  </message>
+</context>
+<context>
   <name>/parameters/GF_MAX_HOR_DIST/shortDesc</name>
   <message>
-  <source>Max horizontal distance from Home</source>
+  <source>Max horizontal distance in meters</source>
   </message>
 </context>
 <context>
   <name>/parameters/GF_MAX_HOR_DIST/longDesc</name>
   <message>
-  <source>Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
+  <source>Maximum horizontal distance in meters the vehicle can be from home before triggering a geofence action. Disabled if 0.</source>
   </message>
 </context>
 <context>
   <name>/parameters/GF_MAX_VER_DIST/shortDesc</name>
   <message>
-  <source>Max vertical distance from Home</source>
+  <source>Max vertical distance in meters</source>
   </message>
 </context>
 <context>
   <name>/parameters/GF_MAX_VER_DIST/longDesc</name>
   <message>
-  <source>Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
+  <source>Maximum vertical distance in meters the vehicle can be from home before triggering a geofence action. Disabled if 0.</source>
   </message>
 </context>
 <context>
@@ -7374,6 +25872,5334 @@
   <name>/parameters/GF_SOURCE/values/1/description</name>
   <message>
   <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/shortDesc</name>
+  <message>
+  <source>Airframe selection</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/longDesc</name>
+  <message>
+  <source>Defines which mixer implementation to use. Some are generic, while others are specifically fit to a certain vehicle with a fixed set of actuators. 'Custom' should only be used if noting else can be used.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/0/description</name>
+  <message>
+  <source>Multirotor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/1/description</name>
+  <message>
+  <source>Fixed-wing</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/2/description</name>
+  <message>
+  <source>Standard VTOL</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/3/description</name>
+  <message>
+  <source>Tiltrotor VTOL</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/4/description</name>
+  <message>
+  <source>Tailsitter VTOL</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/5/description</name>
+  <message>
+  <source>Rover (Ackermann)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/6/description</name>
+  <message>
+  <source>Rover (Differential)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/7/description</name>
+  <message>
+  <source>Motors (6DOF)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/8/description</name>
+  <message>
+  <source>Multirotor with Tilt</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/9/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/10/description</name>
+  <message>
+  <source>Helicopter (tail ESC)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/11/description</name>
+  <message>
+  <source>Helicopter (tail Servo)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/12/description</name>
+  <message>
+  <source>Helicopter (Coaxial)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/13/description</name>
+  <message>
+  <source>VTOL TVMD</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_FAILURE_MODE/shortDesc</name>
+  <message>
+  <source>Motor failure handling mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_FAILURE_MODE/longDesc</name>
+  <message>
+  <source>This is used to specify how to handle motor failures reported by failure detector.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_FAILURE_MODE/values/0/description</name>
+  <message>
+  <source>Ignore</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_FAILURE_MODE/values/1/description</name>
+  <message>
+  <source>Remove first failed motor from effectiveness</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C0/shortDesc</name>
+  <message>
+  <source>Collective pitch curve at position 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C0/longDesc</name>
+  <message>
+  <source>Defines the collective pitch at the interval position 0 for a given thrust setpoint. Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C1/shortDesc</name>
+  <message>
+  <source>Collective pitch curve at position 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C1/longDesc</name>
+  <message>
+  <source>Defines the collective pitch at the interval position 1 for a given thrust setpoint. Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C2/shortDesc</name>
+  <message>
+  <source>Collective pitch curve at position 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C2/longDesc</name>
+  <message>
+  <source>Defines the collective pitch at the interval position 2 for a given thrust setpoint. Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C3/shortDesc</name>
+  <message>
+  <source>Collective pitch curve at position 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C3/longDesc</name>
+  <message>
+  <source>Defines the collective pitch at the interval position 3 for a given thrust setpoint. Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C4/shortDesc</name>
+  <message>
+  <source>Collective pitch curve at position 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_PITCH_C4/longDesc</name>
+  <message>
+  <source>Defines the collective pitch at the interval position 4 for a given thrust setpoint. Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C0/shortDesc</name>
+  <message>
+  <source>Throttle curve at position 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C0/longDesc</name>
+  <message>
+  <source>Defines the output throttle at the interval position 0.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C1/shortDesc</name>
+  <message>
+  <source>Throttle curve at position 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C1/longDesc</name>
+  <message>
+  <source>Defines the output throttle at the interval position 1.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C2/shortDesc</name>
+  <message>
+  <source>Throttle curve at position 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C2/longDesc</name>
+  <message>
+  <source>Defines the output throttle at the interval position 2.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C3/shortDesc</name>
+  <message>
+  <source>Throttle curve at position 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C3/longDesc</name>
+  <message>
+  <source>Defines the output throttle at the interval position 3.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C4/shortDesc</name>
+  <message>
+  <source>Throttle curve at position 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_THR_C4/longDesc</name>
+  <message>
+  <source>Defines the output throttle at the interval position 4.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CCW/shortDesc</name>
+  <message>
+  <source>Main rotor turns counter-clockwise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CCW/longDesc</name>
+  <message>
+  <source>Default configuration is for a clockwise turning main rotor and positive thrust of the tail rotor is expected to rotate the vehicle clockwise. Set this parameter to true if the tail rotor provides thrust in counter-clockwise direction which is mostly the case when the main rotor turns counter-clockwise.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CCW/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CCW/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CP_O/shortDesc</name>
+  <message>
+  <source>Offset for yaw compensation based on collective pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CP_O/longDesc</name>
+  <message>
+  <source>This allows to specify which collective pitch command results in the least amount of rotor drag. This is used to increase the accuracy of the yaw drag torque compensation based on collective pitch by aligning the lowest rotor drag with zero compensation. For symmetric profile blades this is the command that results in exactly 0° collective blade angle. For lift profile blades this is typically a command resulting in slightly negative collective blade angle. tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CP_S/shortDesc</name>
+  <message>
+  <source>Scale for yaw compensation based on collective pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_CP_S/longDesc</name>
+  <message>
+  <source>This allows to add a proportional factor of the collective pitch command to the yaw command. A negative value is needed when positive thrust of the tail rotor rotates the vehicle opposite to the main rotor turn direction. tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_TH_S/shortDesc</name>
+  <message>
+  <source>Scale for yaw compensation based on throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_HELI_YAW_TH_S/longDesc</name>
+  <message>
+  <source>This allows to add a proportional factor of the throttle command to the yaw command. A negative value is needed when positive thrust of the tail rotor rotates the vehicle opposite to the main rotor turn direction. tail_output += CA_HELI_YAW_TH_S * throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_PX/shortDesc</name>
+  <message>
+  <source>Position of module 0 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_PY/shortDesc</name>
+  <message>
+  <source>Position of module 0 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 0 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 0-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD0_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 0-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_PX/shortDesc</name>
+  <message>
+  <source>Position of module 1 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_PY/shortDesc</name>
+  <message>
+  <source>Position of module 1 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 1 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 1-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD1_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 1-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_PX/shortDesc</name>
+  <message>
+  <source>Position of module 2 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_PY/shortDesc</name>
+  <message>
+  <source>Position of module 2 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 2 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 2-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD2_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 2-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_PX/shortDesc</name>
+  <message>
+  <source>Position of module 3 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_PY/shortDesc</name>
+  <message>
+  <source>Position of module 3 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 3 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 3-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD3_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 3-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_PX/shortDesc</name>
+  <message>
+  <source>Position of module 4 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_PY/shortDesc</name>
+  <message>
+  <source>Position of module 4 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 4 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 4-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD4_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 4-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_PX/shortDesc</name>
+  <message>
+  <source>Position of module 5 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_PY/shortDesc</name>
+  <message>
+  <source>Position of module 5 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 5 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 5-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD5_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 5-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_PX/shortDesc</name>
+  <message>
+  <source>Position of module 6 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_PY/shortDesc</name>
+  <message>
+  <source>Position of module 6 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 6 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 6-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD6_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 6-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_AZ/shortDesc</name>
+  <message>
+  <source>Agent orientation rotated by 90 degree along z-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_AZ/longDesc</name>
+  <message>
+  <source>Only four possible values, 4 * 90 back to 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_AZ/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_AZ/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_AZ/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_AZ/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_PX/shortDesc</name>
+  <message>
+  <source>Position of module 7 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_PY/shortDesc</name>
+  <message>
+  <source>Position of module 7 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_PZ/shortDesc</name>
+  <message>
+  <source>Position of module 7 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_X_GR/shortDesc</name>
+  <message>
+  <source>x-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_X_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 7-th module's x-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_Y_GR/shortDesc</name>
+  <message>
+  <source>y-servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD7_Y_GR/longDesc</name>
+  <message>
+  <source>The gear ration of 7-th module's y-axis servo gear ration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD_COUNT/shortDesc</name>
+  <message>
+  <source>Total number of Modules</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD_COUNT/longDesc</name>
+  <message>
+  <source>Currently, it only supports up to 4 modules due to the limitation of maximum number of actuators. The number of motors and the number of tilting servos should be 2 x number_of_module.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD_COUNT/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_MD_COUNT/values/4/description</name>
+  <message>
+  <source>4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_METHOD/shortDesc</name>
+  <message>
+  <source>Control allocation method</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_METHOD/longDesc</name>
+  <message>
+  <source>Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_METHOD/values/0/description</name>
+  <message>
+  <source>Pseudo-inverse with output clipping</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_METHOD/values/1/description</name>
+  <message>
+  <source>Pseudo-inverse with sequential desaturation technique</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_METHOD/values/2/description</name>
+  <message>
+  <source>Cascade Generalized Inverse</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_METHOD/values/3/description</name>
+  <message>
+  <source>Automatic</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R0_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 0 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R0_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R10_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 10 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R10_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R11_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 11 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R11_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R1_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 1 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R1_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R2_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 2 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R2_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R3_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 3 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R3_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R4_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 4 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R4_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R5_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 5 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R5_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R6_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 6 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R6_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R7_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 7 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R7_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R8_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 8 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R8_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R9_SLEW/shortDesc</name>
+  <message>
+  <source>Motor 9 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R9_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the motor input signal to pass through the full output range. A value x means that the motor signal can only go from 0 to 1 in minimum x seconds (in case of reversible motors, the range is -1 to 1). Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 0 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 0 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 0 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 0 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 0 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 0 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 0 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR0_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 10 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 10 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 10 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 10 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 10 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 10 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 10 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR10_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 11 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 11 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 11 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 11 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 11 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 11 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 11 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR11_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 1 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 1 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 1 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 1 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 1 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 1 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 1 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR1_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 2 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 2 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 2 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 2 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 2 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 2 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 2 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR2_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 3 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 3 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 3 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 3 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 3 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 3 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 3 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR3_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 4 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 4 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 4 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 4 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 4 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 4 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 4 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR4_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 5 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 5 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 5 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 5 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 5 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 5 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 5 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR5_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 6 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 6 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 6 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 6 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 6 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 6 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 6 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR6_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 7 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 7 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 7 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 7 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 7 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 7 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 7 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR7_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 8 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 8 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 8 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 8 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 8 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 8 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 8 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR8_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_AX/shortDesc</name>
+  <message>
+  <source>Axis of rotor 9 thrust vector, X body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_AX/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_AY/shortDesc</name>
+  <message>
+  <source>Axis of rotor 9 thrust vector, Y body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_AY/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_AZ/shortDesc</name>
+  <message>
+  <source>Axis of rotor 9 thrust vector, Z body axis component</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_AZ/longDesc</name>
+  <message>
+  <source>Only the direction is considered (the vector is normalized).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_CT/shortDesc</name>
+  <message>
+  <source>Thrust coefficient of rotor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_CT/longDesc</name>
+  <message>
+  <source>The thrust coefficient if defined as Thrust = CT * u^2, where u (with value between actuator minimum and maximum) is the output signal sent to the motor controller.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_KM/shortDesc</name>
+  <message>
+  <source>Moment coefficient of rotor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_KM/longDesc</name>
+  <message>
+  <source>The moment coefficient if defined as Torque = KM * Thrust. Use a positive value for a rotor with CCW rotation. Use a negative value for a rotor with CW rotation.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_PX/shortDesc</name>
+  <message>
+  <source>Position of rotor 9 along X body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_PY/shortDesc</name>
+  <message>
+  <source>Position of rotor 9 along Y body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_PZ/shortDesc</name>
+  <message>
+  <source>Position of rotor 9 along Z body axis relative to center of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/shortDesc</name>
+  <message>
+  <source>Rotor 9 tilt assignment</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/longDesc</name>
+  <message>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/1/description</name>
+  <message>
+  <source>Tilt 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/2/description</name>
+  <message>
+  <source>Tilt 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/3/description</name>
+  <message>
+  <source>Tilt 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/4/description</name>
+  <message>
+  <source>Tilt 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/5/description</name>
+  <message>
+  <source>Tilt 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/6/description</name>
+  <message>
+  <source>Tilt 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/7/description</name>
+  <message>
+  <source>Tilt 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR9_TILT/values/8/description</name>
+  <message>
+  <source>Tilt 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/shortDesc</name>
+  <message>
+  <source>Total number of rotors</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/4/description</name>
+  <message>
+  <source>4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/5/description</name>
+  <message>
+  <source>5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/6/description</name>
+  <message>
+  <source>6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/7/description</name>
+  <message>
+  <source>7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/8/description</name>
+  <message>
+  <source>8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/9/description</name>
+  <message>
+  <source>9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/10/description</name>
+  <message>
+  <source>10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/11/description</name>
+  <message>
+  <source>11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_ROTOR_COUNT/values/12/description</name>
+  <message>
+  <source>12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/shortDesc</name>
+  <message>
+  <source>Bidirectional/Reversible motors</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/longDesc</name>
+  <message>
+  <source>Configure motors to be bidirectional/reversible. Note that the output driver needs to support this as well.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/0/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/1/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/2/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/3/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/4/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/5/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/6/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/7/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/8/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/9/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/10/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_R_REV/bitmask/11/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG0/shortDesc</name>
+  <message>
+  <source>Angle for swash plate servo 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG0/longDesc</name>
+  <message>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG1/shortDesc</name>
+  <message>
+  <source>Angle for swash plate servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG1/longDesc</name>
+  <message>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG2/shortDesc</name>
+  <message>
+  <source>Angle for swash plate servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG2/longDesc</name>
+  <message>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG3/shortDesc</name>
+  <message>
+  <source>Angle for swash plate servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ANG3/longDesc</name>
+  <message>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L0/shortDesc</name>
+  <message>
+  <source>Arm length for swash plate servo 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L0/longDesc</name>
+  <message>
+  <source>This is relative to the other arm lengths.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L1/shortDesc</name>
+  <message>
+  <source>Arm length for swash plate servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L1/longDesc</name>
+  <message>
+  <source>This is relative to the other arm lengths.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L2/shortDesc</name>
+  <message>
+  <source>Arm length for swash plate servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L2/longDesc</name>
+  <message>
+  <source>This is relative to the other arm lengths.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L3/shortDesc</name>
+  <message>
+  <source>Arm length for swash plate servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_ARM_L3/longDesc</name>
+  <message>
+  <source>This is relative to the other arm lengths.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_COUNT/shortDesc</name>
+  <message>
+  <source>Number of swash plates servos</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_COUNT/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_COUNT/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SP0_COUNT/values/4/description</name>
+  <message>
+  <source>4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV0_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 0 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV0_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV1_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 1 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV1_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV2_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 2 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV2_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV3_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 3 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV3_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV4_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 4 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV4_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV5_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 5 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV5_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV6_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 6 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV6_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV7_SLEW/shortDesc</name>
+  <message>
+  <source>Servo 7 slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV7_SLEW/longDesc</name>
+  <message>
+  <source>Minimum time allowed for the servo input signal to pass through the full output range. A value x means that the servo signal can only go from -1 to 1 in minimum x seconds. Zero means that slew rate limiting is disabled.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 0 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 0 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 0 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 0 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 0 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 0 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 0 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS0_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 1 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 1 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 1 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 1 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 1 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 1 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 1 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS1_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 2 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 2 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 2 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 2 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 2 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 2 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 2 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS2_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 3 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 3 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 3 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 3 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 3 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 3 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 3 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS3_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 4 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 4 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 4 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 4 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 4 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 4 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 4 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS4_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 5 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 5 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 5 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 5 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 5 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 5 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 5 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS5_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 6 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 6 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 6 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 6 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 6 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 6 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 6 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS6_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_FLAP/shortDesc</name>
+  <message>
+  <source>Control Surface 7 configuration as flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_SPOIL/shortDesc</name>
+  <message>
+  <source>Control Surface 7 configuration as spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TRIM/shortDesc</name>
+  <message>
+  <source>Control Surface 7 trim</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TRIM/longDesc</name>
+  <message>
+  <source>Can be used to add an offset to the servo control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TRQ_P/shortDesc</name>
+  <message>
+  <source>Control Surface 7 pitch torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TRQ_R/shortDesc</name>
+  <message>
+  <source>Control Surface 7 roll torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TRQ_Y/shortDesc</name>
+  <message>
+  <source>Control Surface 7 yaw torque scaling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/shortDesc</name>
+  <message>
+  <source>Control Surface 7 type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/0/description</name>
+  <message>
+  <source>(Not set)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/1/description</name>
+  <message>
+  <source>Left Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/2/description</name>
+  <message>
+  <source>Right Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/3/description</name>
+  <message>
+  <source>Elevator</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/4/description</name>
+  <message>
+  <source>Rudder</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/5/description</name>
+  <message>
+  <source>Left Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/6/description</name>
+  <message>
+  <source>Right Elevon</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/7/description</name>
+  <message>
+  <source>Left V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/8/description</name>
+  <message>
+  <source>Right V-Tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/9/description</name>
+  <message>
+  <source>Left Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/10/description</name>
+  <message>
+  <source>Right Flap</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/11/description</name>
+  <message>
+  <source>Airbrake</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/12/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/13/description</name>
+  <message>
+  <source>Left A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/14/description</name>
+  <message>
+  <source>Right A-tail</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/15/description</name>
+  <message>
+  <source>Single Channel Aileron</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/16/description</name>
+  <message>
+  <source>Steering Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/17/description</name>
+  <message>
+  <source>Left Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS7_TYPE/values/18/description</name>
+  <message>
+  <source>Right Spoiler</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/shortDesc</name>
+  <message>
+  <source>Total number of Control Surfaces</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/4/description</name>
+  <message>
+  <source>4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/5/description</name>
+  <message>
+  <source>5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/6/description</name>
+  <message>
+  <source>6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/7/description</name>
+  <message>
+  <source>7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_CS_COUNT/values/8/description</name>
+  <message>
+  <source>8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_CT/shortDesc</name>
+  <message>
+  <source>Tilt 0 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 0 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 0 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 0 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL0_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_CT/shortDesc</name>
+  <message>
+  <source>Tilt 1 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 1 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 1 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 1 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL1_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_CT/shortDesc</name>
+  <message>
+  <source>Tilt 2 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 2 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 2 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 2 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL2_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_CT/shortDesc</name>
+  <message>
+  <source>Tilt 3 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 3 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 3 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 3 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL3_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_CT/shortDesc</name>
+  <message>
+  <source>Tilt 4 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 4 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 4 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 4 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL4_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_CT/shortDesc</name>
+  <message>
+  <source>Tilt 5 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 5 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 5 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 5 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL5_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_CT/shortDesc</name>
+  <message>
+  <source>Tilt 6 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 6 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 6 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 6 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL6_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_CT/shortDesc</name>
+  <message>
+  <source>Tilt 7 is used for control</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_CT/longDesc</name>
+  <message>
+  <source>Define if this servo is used for additional control.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_CT/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_CT/values/1/description</name>
+  <message>
+  <source>Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_CT/values/2/description</name>
+  <message>
+  <source>Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_CT/values/3/description</name>
+  <message>
+  <source>Yaw and Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_MAXA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 7 Tilt Angle at Maximum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_MAXA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the maximum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_MINA/shortDesc</name>
+  <message>
+  <source>Tilt Servo 7 Tilt Angle at Minimum</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_MINA/longDesc</name>
+  <message>
+  <source>Defines the tilt angle when the servo is at the minimum. An angle of zero means upwards.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_TD/shortDesc</name>
+  <message>
+  <source>Tilt Servo 7 Tilt Direction</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_TD/longDesc</name>
+  <message>
+  <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle. For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front', the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_TD/values/0/description</name>
+  <message>
+  <source>Towards Front</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL7_TD/values/90/description</name>
+  <message>
+  <source>Towards Right</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/shortDesc</name>
+  <message>
+  <source>Total number of Tilt Servos</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/0/description</name>
+  <message>
+  <source>0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/1/description</name>
+  <message>
+  <source>1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/2/description</name>
+  <message>
+  <source>2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/3/description</name>
+  <message>
+  <source>3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/4/description</name>
+  <message>
+  <source>4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/5/description</name>
+  <message>
+  <source>5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/6/description</name>
+  <message>
+  <source>6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/7/description</name>
+  <message>
+  <source>7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_SV_TL_COUNT/values/8/description</name>
+  <message>
+  <source>8</source>
   </message>
 </context>
 <context>
@@ -7449,30 +31275,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/ISBD_READ_INT/shortDesc</name>
-  <message>
-  <source>Satellite radio read interval. Only required to be nonzero if data is not sent using a ring call</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ISBD_SBD_TIMEOUT/shortDesc</name>
-  <message>
-  <source>Iridium SBD session timeout</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ISBD_STACK_TIME/shortDesc</name>
-  <message>
-  <source>Time the Iridium driver will wait for additional mavlink messages to combine them into one SBD message</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ISBD_STACK_TIME/longDesc</name>
-  <message>
-  <source>Value 0 turns the functionality off</source>
-  </message>
-</context>
-<context>
   <name>/parameters/LNDFW_AIRSPD_MAX/shortDesc</name>
   <message>
   <source>Fixed-wing land detector: Max airspeed</source>
@@ -7542,6 +31344,18 @@
   <name>/parameters/LNDMC_ALT_GND/longDesc</name>
   <message>
   <source>The height above ground below which ground effect creates barometric altitude errors. A negative value indicates no ground effect.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/LNDMC_ALT_MAX/shortDesc</name>
+  <message>
+  <source>Maximum altitude for multicopters</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/LNDMC_ALT_MAX/longDesc</name>
+  <message>
+  <source>The system will obey this limit as a hard altitude limit. This setting will be consolidated with the GF_MAX_VER_DIST parameter. A negative value indicates no altitude limitation.</source>
   </message>
 </context>
 <context>
@@ -8127,6 +31941,672 @@
   </message>
 </context>
 <context>
+  <name>/parameters/MAV_0_BROADCAST/shortDesc</name>
+  <message>
+  <source>Broadcast heartbeats on local network for MAVLink instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_BROADCAST/longDesc</name>
+  <message>
+  <source>This allows a ground control station to automatically find the drone on the local network.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_BROADCAST/values/0/description</name>
+  <message>
+  <source>Never broadcast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_BROADCAST/values/1/description</name>
+  <message>
+  <source>Always broadcast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_BROADCAST/values/2/description</name>
+  <message>
+  <source>Only multicast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FLOW_CTRL/shortDesc</name>
+  <message>
+  <source>Enable serial flow control for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FLOW_CTRL/longDesc</name>
+  <message>
+  <source>This is used to force flow control on or off for the the mavlink instance. By default it is auto detected. Use when auto detection fails.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FLOW_CTRL/values/0/description</name>
+  <message>
+  <source>Force off</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FLOW_CTRL/values/1/description</name>
+  <message>
+  <source>Force on</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FLOW_CTRL/values/2/description</name>
+  <message>
+  <source>Auto-detected</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FORWARD/shortDesc</name>
+  <message>
+  <source>Enable MAVLink Message forwarding for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FORWARD/longDesc</name>
+  <message>
+  <source>If enabled, forward incoming MAVLink messages to other MAVLink ports if the message is either broadcast or the target is not the autopilot. This allows for example a GCS to talk to a camera that is connected to the autopilot via MAVLink (on a different link than the GCS).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FORWARD/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_FORWARD/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/shortDesc</name>
+  <message>
+  <source>MAVLink Mode for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/longDesc</name>
+  <message>
+  <source>The MAVLink Mode defines the set of streamed messages (for example the vehicle's attitude) and their sending rates.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/0/description</name>
+  <message>
+  <source>Normal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/1/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/2/description</name>
+  <message>
+  <source>Onboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/3/description</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/4/description</name>
+  <message>
+  <source>Magic</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/5/description</name>
+  <message>
+  <source>Config</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/7/description</name>
+  <message>
+  <source>Minimal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/8/description</name>
+  <message>
+  <source>External Vision</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/10/description</name>
+  <message>
+  <source>Gimbal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/11/description</name>
+  <message>
+  <source>Onboard Low Bandwidth</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_MODE/values/12/description</name>
+  <message>
+  <source>uAvionix</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_RADIO_CTL/shortDesc</name>
+  <message>
+  <source>Enable software throttling of mavlink on instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_RADIO_CTL/longDesc</name>
+  <message>
+  <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_RADIO_CTL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_RADIO_CTL/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_RATE/shortDesc</name>
+  <message>
+  <source>Maximum MAVLink sending rate for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_RATE/longDesc</name>
+  <message>
+  <source>Configure the maximum sending rate for the MAVLink streams in Bytes/sec. If the configured streams exceed the maximum rate, the sending rate of each stream is automatically decreased. If this is set to 0 a value of half of the theoretical maximum bandwidth is used. This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on 8N1-configured links).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_REMOTE_PRT/shortDesc</name>
+  <message>
+  <source>MAVLink Remote Port for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_REMOTE_PRT/longDesc</name>
+  <message>
+  <source>If ethernet enabled and selected as configuration for MAVLink instance 0, selected remote port will be set and used in MAVLink instance 0.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_UDP_PRT/shortDesc</name>
+  <message>
+  <source>MAVLink Network Port for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_UDP_PRT/longDesc</name>
+  <message>
+  <source>If ethernet enabled and selected as configuration for MAVLink instance 0, selected udp port will be set and used in MAVLink instance 0.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_BROADCAST/shortDesc</name>
+  <message>
+  <source>Broadcast heartbeats on local network for MAVLink instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_BROADCAST/longDesc</name>
+  <message>
+  <source>This allows a ground control station to automatically find the drone on the local network.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_BROADCAST/values/0/description</name>
+  <message>
+  <source>Never broadcast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_BROADCAST/values/1/description</name>
+  <message>
+  <source>Always broadcast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_BROADCAST/values/2/description</name>
+  <message>
+  <source>Only multicast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FLOW_CTRL/shortDesc</name>
+  <message>
+  <source>Enable serial flow control for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FLOW_CTRL/longDesc</name>
+  <message>
+  <source>This is used to force flow control on or off for the the mavlink instance. By default it is auto detected. Use when auto detection fails.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FLOW_CTRL/values/0/description</name>
+  <message>
+  <source>Force off</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FLOW_CTRL/values/1/description</name>
+  <message>
+  <source>Force on</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FLOW_CTRL/values/2/description</name>
+  <message>
+  <source>Auto-detected</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FORWARD/shortDesc</name>
+  <message>
+  <source>Enable MAVLink Message forwarding for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FORWARD/longDesc</name>
+  <message>
+  <source>If enabled, forward incoming MAVLink messages to other MAVLink ports if the message is either broadcast or the target is not the autopilot. This allows for example a GCS to talk to a camera that is connected to the autopilot via MAVLink (on a different link than the GCS).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FORWARD/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_FORWARD/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/shortDesc</name>
+  <message>
+  <source>MAVLink Mode for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/longDesc</name>
+  <message>
+  <source>The MAVLink Mode defines the set of streamed messages (for example the vehicle's attitude) and their sending rates.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/0/description</name>
+  <message>
+  <source>Normal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/1/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/2/description</name>
+  <message>
+  <source>Onboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/3/description</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/4/description</name>
+  <message>
+  <source>Magic</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/5/description</name>
+  <message>
+  <source>Config</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/7/description</name>
+  <message>
+  <source>Minimal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/8/description</name>
+  <message>
+  <source>External Vision</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/10/description</name>
+  <message>
+  <source>Gimbal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/11/description</name>
+  <message>
+  <source>Onboard Low Bandwidth</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_MODE/values/12/description</name>
+  <message>
+  <source>uAvionix</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_RADIO_CTL/shortDesc</name>
+  <message>
+  <source>Enable software throttling of mavlink on instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_RADIO_CTL/longDesc</name>
+  <message>
+  <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_RADIO_CTL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_RADIO_CTL/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_RATE/shortDesc</name>
+  <message>
+  <source>Maximum MAVLink sending rate for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_RATE/longDesc</name>
+  <message>
+  <source>Configure the maximum sending rate for the MAVLink streams in Bytes/sec. If the configured streams exceed the maximum rate, the sending rate of each stream is automatically decreased. If this is set to 0 a value of half of the theoretical maximum bandwidth is used. This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on 8N1-configured links).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_REMOTE_PRT/shortDesc</name>
+  <message>
+  <source>MAVLink Remote Port for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_REMOTE_PRT/longDesc</name>
+  <message>
+  <source>If ethernet enabled and selected as configuration for MAVLink instance 1, selected remote port will be set and used in MAVLink instance 1.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_UDP_PRT/shortDesc</name>
+  <message>
+  <source>MAVLink Network Port for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_UDP_PRT/longDesc</name>
+  <message>
+  <source>If ethernet enabled and selected as configuration for MAVLink instance 1, selected udp port will be set and used in MAVLink instance 1.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_BROADCAST/shortDesc</name>
+  <message>
+  <source>Broadcast heartbeats on local network for MAVLink instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_BROADCAST/longDesc</name>
+  <message>
+  <source>This allows a ground control station to automatically find the drone on the local network.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_BROADCAST/values/0/description</name>
+  <message>
+  <source>Never broadcast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_BROADCAST/values/1/description</name>
+  <message>
+  <source>Always broadcast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_BROADCAST/values/2/description</name>
+  <message>
+  <source>Only multicast</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FLOW_CTRL/shortDesc</name>
+  <message>
+  <source>Enable serial flow control for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FLOW_CTRL/longDesc</name>
+  <message>
+  <source>This is used to force flow control on or off for the the mavlink instance. By default it is auto detected. Use when auto detection fails.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FLOW_CTRL/values/0/description</name>
+  <message>
+  <source>Force off</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FLOW_CTRL/values/1/description</name>
+  <message>
+  <source>Force on</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FLOW_CTRL/values/2/description</name>
+  <message>
+  <source>Auto-detected</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FORWARD/shortDesc</name>
+  <message>
+  <source>Enable MAVLink Message forwarding for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FORWARD/longDesc</name>
+  <message>
+  <source>If enabled, forward incoming MAVLink messages to other MAVLink ports if the message is either broadcast or the target is not the autopilot. This allows for example a GCS to talk to a camera that is connected to the autopilot via MAVLink (on a different link than the GCS).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FORWARD/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_FORWARD/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/shortDesc</name>
+  <message>
+  <source>MAVLink Mode for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/longDesc</name>
+  <message>
+  <source>The MAVLink Mode defines the set of streamed messages (for example the vehicle's attitude) and their sending rates.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/0/description</name>
+  <message>
+  <source>Normal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/1/description</name>
+  <message>
+  <source>Custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/2/description</name>
+  <message>
+  <source>Onboard</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/3/description</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/4/description</name>
+  <message>
+  <source>Magic</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/5/description</name>
+  <message>
+  <source>Config</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/7/description</name>
+  <message>
+  <source>Minimal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/8/description</name>
+  <message>
+  <source>External Vision</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/10/description</name>
+  <message>
+  <source>Gimbal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/11/description</name>
+  <message>
+  <source>Onboard Low Bandwidth</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_MODE/values/12/description</name>
+  <message>
+  <source>uAvionix</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_RADIO_CTL/shortDesc</name>
+  <message>
+  <source>Enable software throttling of mavlink on instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_RADIO_CTL/longDesc</name>
+  <message>
+  <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_RADIO_CTL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_RADIO_CTL/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_RATE/shortDesc</name>
+  <message>
+  <source>Maximum MAVLink sending rate for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_RATE/longDesc</name>
+  <message>
+  <source>Configure the maximum sending rate for the MAVLink streams in Bytes/sec. If the configured streams exceed the maximum rate, the sending rate of each stream is automatically decreased. If this is set to 0 a value of half of the theoretical maximum bandwidth is used. This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on 8N1-configured links).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_REMOTE_PRT/shortDesc</name>
+  <message>
+  <source>MAVLink Remote Port for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_REMOTE_PRT/longDesc</name>
+  <message>
+  <source>If ethernet enabled and selected as configuration for MAVLink instance 2, selected remote port will be set and used in MAVLink instance 2.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_UDP_PRT/shortDesc</name>
+  <message>
+  <source>MAVLink Network Port for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_UDP_PRT/longDesc</name>
+  <message>
+  <source>If ethernet enabled and selected as configuration for MAVLink instance 2, selected udp port will be set and used in MAVLink instance 2.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MAV_COMP_ID/shortDesc</name>
   <message>
   <source>MAVLink component ID</source>
@@ -8397,222 +32877,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/MODAL_IO_BAUD/shortDesc</name>
-  <message>
-  <source>UART ESC baud rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_BAUD/longDesc</name>
-  <message>
-  <source>Default rate is 250Kbps, which is used in off-the-shelf MoadalAI ESC products.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/shortDesc</name>
-  <message>
-  <source>UART ESC configuration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/longDesc</name>
-  <message>
-  <source>Selects what type of UART ESC, if any, is being used.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/values/0/description</name>
-  <message>
-  <source>- Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/values/1/description</name>
-  <message>
-  <source>- VOXL ESC</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/shortDesc</name>
-  <message>
-  <source>UART ESC Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/longDesc</name>
-  <message>
-  <source>Selects what type of mode is enabled, if any</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/0/description</name>
-  <message>
-  <source>- None</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/1/description</name>
-  <message>
-  <source>- Turtle Mode enabled via AUX1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/2/description</name>
-  <message>
-  <source>- Turtle Mode enabled via AUX2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/3/description</name>
-  <message>
-  <source>- UART Passthrough Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MAX/shortDesc</name>
-  <message>
-  <source>UART ESC RPM Max</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MAX/longDesc</name>
-  <message>
-  <source>Maximum RPM for ESC</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MIN/shortDesc</name>
-  <message>
-  <source>UART ESC RPM Min</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MIN/longDesc</name>
-  <message>
-  <source>Minimum RPM for ESC</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR1/shortDesc</name>
-  <message>
-  <source>UART ESC ID 1 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR1/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR1/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR2/shortDesc</name>
-  <message>
-  <source>UART ESC ID 2 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR2/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR2/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR3/shortDesc</name>
-  <message>
-  <source>UART ESC ID 3 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR3/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR3/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR4/shortDesc</name>
-  <message>
-  <source>UART ESC ID 4 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR4/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR4/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_COSP/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Cosphi</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_DEAD/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor Deadband</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_EXPO/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor expo</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_MINF/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor STICK_MINF</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_PERC/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor Percent</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_VLOG/shortDesc</name>
-  <message>
-  <source>UART ESC verbose logging</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_VLOG/values/0/description</name>
-  <message>
-  <source>- Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_VLOG/values/1/description</name>
-  <message>
-  <source>- Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/MBE_ENABLE/shortDesc</name>
   <message>
   <source>Enable online mag bias calibration</source>
@@ -8670,18 +32934,6 @@
   <name>/parameters/MAN_ARM_GESTURE/values/1/description</name>
   <message>
   <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MAN_KILL_GEST_T/shortDesc</name>
-  <message>
-  <source>Trigger time for kill stick gesture</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MAN_KILL_GEST_T/longDesc</name>
-  <message>
-  <source>The timeout for holding the left stick to the lower left and the right stick to the lower right at the same time until the gesture kills the actuators one-way. A negative value disables the feature.</source>
   </message>
 </context>
 <context>
@@ -9030,6 +33282,30 @@
   <name>/parameters/NAV_TRAFF_COLL_T/longDesc</name>
   <message>
   <source>Minimum acceptable time until collsion. Assumes constant speed over 3d distance.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_BASE/shortDesc</name>
+  <message>
+  <source>Vehicle base weight</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_BASE/longDesc</name>
+  <message>
+  <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_GROSS/shortDesc</name>
+  <message>
+  <source>Vehicle gross weight</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_GROSS/longDesc</name>
+  <message>
+  <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
   </message>
 </context>
 <context>
@@ -10665,33 +34941,195 @@
   </message>
 </context>
 <context>
-  <name>/parameters/OSD_ATXXXX_CFG/shortDesc</name>
+  <name>/parameters/OSD_CH_HEIGHT/shortDesc</name>
   <message>
-  <source>Enable/Disable the ATXXX OSD Chip</source>
+  <source>OSD Crosshairs Height</source>
   </message>
 </context>
 <context>
-  <name>/parameters/OSD_ATXXXX_CFG/longDesc</name>
+  <name>/parameters/OSD_CH_HEIGHT/longDesc</name>
   <message>
-  <source>Configure the ATXXXX OSD Chip (mounted on the OmnibusF4SD board) and select the transmission standard.</source>
+  <source>Controls the vertical position of the crosshair display. Resolution is limited by OSD to 15 discrete values. Negative values will display the crosshairs below the horizon</source>
   </message>
 </context>
 <context>
-  <name>/parameters/OSD_ATXXXX_CFG/values/0/description</name>
+  <name>/parameters/OSD_DWELL_TIME/shortDesc</name>
   <message>
-  <source>Disabled</source>
+  <source>OSD Dwell Time (ms)</source>
   </message>
 </context>
 <context>
-  <name>/parameters/OSD_ATXXXX_CFG/values/1/description</name>
+  <name>/parameters/OSD_DWELL_TIME/longDesc</name>
   <message>
-  <source>NTSC</source>
+  <source>Amount of time in milliseconds to dwell at the beginning of the display, when scrolling.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/OSD_ATXXXX_CFG/values/2/description</name>
+  <name>/parameters/OSD_LOG_LEVEL/shortDesc</name>
   <message>
-  <source>PAL</source>
+  <source>OSD Warning Level</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_LOG_LEVEL/longDesc</name>
+  <message>
+  <source>Minimum security of log level to display on the OSD.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SCROLL_RATE/shortDesc</name>
+  <message>
+  <source>OSD Scroll Rate (ms)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SCROLL_RATE/longDesc</name>
+  <message>
+  <source>Scroll rate in milliseconds for OSD messages longer than available character width. This is lower-bounded by the nominal loop rate of this module.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/shortDesc</name>
+  <message>
+  <source>OSD Symbol Selection</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/longDesc</name>
+  <message>
+  <source>Configure / toggle support display options.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/0/description</name>
+  <message>
+  <source>CRAFT_NAME</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/1/description</name>
+  <message>
+  <source>DISARMED</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/2/description</name>
+  <message>
+  <source>GPS_LAT</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/3/description</name>
+  <message>
+  <source>GPS_LON</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/4/description</name>
+  <message>
+  <source>GPS_SATS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/5/description</name>
+  <message>
+  <source>GPS_SPEED</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/6/description</name>
+  <message>
+  <source>HOME_DIST</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/7/description</name>
+  <message>
+  <source>HOME_DIR</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/8/description</name>
+  <message>
+  <source>MAIN_BATT_VOLTAGE</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/9/description</name>
+  <message>
+  <source>CURRENT_DRAW</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/10/description</name>
+  <message>
+  <source>MAH_DRAWN</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/11/description</name>
+  <message>
+  <source>RSSI_VALUE</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/12/description</name>
+  <message>
+  <source>ALTITUDE</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/13/description</name>
+  <message>
+  <source>NUMERICAL_VARIO</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/14/description</name>
+  <message>
+  <source>(unused) FLYMODE</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/15/description</name>
+  <message>
+  <source>(unused) ESC_TMP</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/16/description</name>
+  <message>
+  <source>(unused) PITCH_ANGLE</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/17/description</name>
+  <message>
+  <source>(unused) ROLL_ANGLE</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/18/description</name>
+  <message>
+  <source>CROSSHAIRS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/19/description</name>
+  <message>
+  <source>AVG_CELL_VOLTAGE</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/20/description</name>
+  <message>
+  <source>(unused) HORIZON_SIDEBARS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_SYMBOLS/bitmask/21/description</name>
+  <message>
+  <source>POWER</source>
   </message>
 </context>
 <context>
@@ -10707,30 +35145,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/PWM_SBUS_MODE/shortDesc</name>
-  <message>
-  <source>S.BUS out</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PWM_SBUS_MODE/longDesc</name>
-  <message>
-  <source>Set to 1 to enable S.BUS version 1 output instead of RSSI.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PWM_SBUS_MODE/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PWM_SBUS_MODE/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/THR_MDL_FAC/shortDesc</name>
   <message>
   <source>Thrust to motor control signal model parameter</source>
@@ -10740,6 +35154,54 @@
   <name>/parameters/THR_MDL_FAC/longDesc</name>
   <message>
   <source>Parameter used to model the nonlinear relationship between motor control signal (e.g. PWM) and static thrust. The model is: rel_thrust = factor * rel_signal^2 + (1-factor) * rel_signal, where rel_thrust is the normalized thrust between 0 and 1, and rel_signal is the relative motor control signal between 0 and 1.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_EN/shortDesc</name>
+  <message>
+  <source>Enable Gripper actuation in Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_EN/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_TO/shortDesc</name>
+  <message>
+  <source>Timeout for successful gripper actuation acknowledgement</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_TO/longDesc</name>
+  <message>
+  <source>Maximum time Gripper will wait while the successful griper actuation isn't recognised. If the gripper has no feedback sensor, it will simply wait for this time before considering gripper actuation successful and publish a 'VehicleCommandAck' signaling successful gripper action</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_TYPE/shortDesc</name>
+  <message>
+  <source>Type of Gripper (Servo, etc.)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_TYPE/values/-1/description</name>
+  <message>
+  <source>Undefined</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PD_GRIPPER_TYPE/values/0/description</name>
+  <message>
+  <source>Servo</source>
   </message>
 </context>
 <context>
@@ -17091,6 +41553,4902 @@
   </message>
 </context>
 <context>
+  <name>/parameters/CAL_ACC0_ID/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ID/longDesc</name>
+  <message>
+  <source>Device ID of the accelerometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_XOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_XSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_YOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_YSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ZOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_ZSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 0 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ID/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ID/longDesc</name>
+  <message>
+  <source>Device ID of the accelerometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_XOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_XSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_YOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_YSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ZOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC1_ZSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 1 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ID/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ID/longDesc</name>
+  <message>
+  <source>Device ID of the accelerometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_XOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_XSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_YOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_YSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ZOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC2_ZSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 2 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ID/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ID/longDesc</name>
+  <message>
+  <source>Device ID of the accelerometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_XOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_XSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_YOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_YSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ZOFF/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_ZSCALE/shortDesc</name>
+  <message>
+  <source>Accelerometer 3 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_ID/shortDesc</name>
+  <message>
+  <source>Barometer 0 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_ID/longDesc</name>
+  <message>
+  <source>Device ID of the barometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_OFF/shortDesc</name>
+  <message>
+  <source>Barometer 0 offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/shortDesc</name>
+  <message>
+  <source>Barometer 0 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO0_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_ID/shortDesc</name>
+  <message>
+  <source>Barometer 1 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_ID/longDesc</name>
+  <message>
+  <source>Device ID of the barometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_OFF/shortDesc</name>
+  <message>
+  <source>Barometer 1 offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/shortDesc</name>
+  <message>
+  <source>Barometer 1 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO1_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_ID/shortDesc</name>
+  <message>
+  <source>Barometer 2 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_ID/longDesc</name>
+  <message>
+  <source>Device ID of the barometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_OFF/shortDesc</name>
+  <message>
+  <source>Barometer 2 offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/shortDesc</name>
+  <message>
+  <source>Barometer 2 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO2_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_ID/shortDesc</name>
+  <message>
+  <source>Barometer 3 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_ID/longDesc</name>
+  <message>
+  <source>Device ID of the barometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_OFF/shortDesc</name>
+  <message>
+  <source>Barometer 3 offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/shortDesc</name>
+  <message>
+  <source>Barometer 3 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_BARO3_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ID/shortDesc</name>
+  <message>
+  <source>Gyroscope 0 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ID/longDesc</name>
+  <message>
+  <source>Device ID of the gyroscope this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/shortDesc</name>
+  <message>
+  <source>Gyroscope 0 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/shortDesc</name>
+  <message>
+  <source>Gyroscope 0 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_XOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 0 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_YOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 0 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_ZOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 0 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ID/shortDesc</name>
+  <message>
+  <source>Gyroscope 1 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ID/longDesc</name>
+  <message>
+  <source>Device ID of the gyroscope this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/shortDesc</name>
+  <message>
+  <source>Gyroscope 1 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/shortDesc</name>
+  <message>
+  <source>Gyroscope 1 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_XOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 1 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_YOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 1 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO1_ZOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 1 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ID/shortDesc</name>
+  <message>
+  <source>Gyroscope 2 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ID/longDesc</name>
+  <message>
+  <source>Device ID of the gyroscope this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/shortDesc</name>
+  <message>
+  <source>Gyroscope 2 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/shortDesc</name>
+  <message>
+  <source>Gyroscope 2 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_XOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 2 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_YOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 2 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO2_ZOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 2 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ID/shortDesc</name>
+  <message>
+  <source>Gyroscope 3 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ID/longDesc</name>
+  <message>
+  <source>Device ID of the gyroscope this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/shortDesc</name>
+  <message>
+  <source>Gyroscope 3 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/shortDesc</name>
+  <message>
+  <source>Gyroscope 3 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_XOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 3 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_YOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 3 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_ZOFF/shortDesc</name>
+  <message>
+  <source>Gyroscope 3 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ID/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ID/longDesc</name>
+  <message>
+  <source>Device ID of the magnetometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PITCH/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Custom Euler Pitch Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PITCH/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROLL/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Custom Euler Roll Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROLL/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero. Set to "Custom Euler Angle" to define the rotation using CAL_MAG0_ROLL, CAL_MAG0_PITCH and CAL_MAG0_YAW.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ROT/values/100/description</name>
+  <message>
+  <source>Custom Euler Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_XCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 X Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_XCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_XODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 X-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_XOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_XSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_YAW/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Custom Euler Yaw Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_YAW/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_YCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Y Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_YCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_YODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Y-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_YOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_YSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ZCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Z Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ZCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ZODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Z-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ZOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG0_ZSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 0 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ID/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ID/longDesc</name>
+  <message>
+  <source>Device ID of the magnetometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PITCH/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Custom Euler Pitch Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PITCH/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROLL/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Custom Euler Roll Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROLL/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero. Set to "Custom Euler Angle" to define the rotation using CAL_MAG1_ROLL, CAL_MAG1_PITCH and CAL_MAG1_YAW.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ROT/values/100/description</name>
+  <message>
+  <source>Custom Euler Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_XCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 X Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_XCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_XODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 X-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_XOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_XSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_YAW/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Custom Euler Yaw Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_YAW/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_YCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Y Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_YCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_YODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Y-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_YOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_YSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ZCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Z Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ZCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ZODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Z-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ZOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG1_ZSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 1 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ID/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ID/longDesc</name>
+  <message>
+  <source>Device ID of the magnetometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PITCH/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Custom Euler Pitch Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PITCH/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROLL/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Custom Euler Roll Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROLL/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero. Set to "Custom Euler Angle" to define the rotation using CAL_MAG2_ROLL, CAL_MAG2_PITCH and CAL_MAG2_YAW.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ROT/values/100/description</name>
+  <message>
+  <source>Custom Euler Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_XCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 X Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_XCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_XODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 X-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_XOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_XSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_YAW/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Custom Euler Yaw Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_YAW/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_YCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Y Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_YCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_YODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Y-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_YOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_YSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ZCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Z Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ZCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ZODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Z-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ZOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG2_ZSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 2 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ID/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ID/longDesc</name>
+  <message>
+  <source>Device ID of the magnetometer this calibration applies to.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PITCH/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Custom Euler Pitch Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PITCH/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/values/-1/description</name>
+  <message>
+  <source>Uninitialized</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/values/1/description</name>
+  <message>
+  <source>Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/values/25/description</name>
+  <message>
+  <source>Low</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/values/50/description</name>
+  <message>
+  <source>Medium (Default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/values/75/description</name>
+  <message>
+  <source>High</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_PRIO/values/100/description</name>
+  <message>
+  <source>Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROLL/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Custom Euler Roll Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROLL/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 rotation relative to airframe</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/longDesc</name>
+  <message>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero. Set to "Custom Euler Angle" to define the rotation using CAL_MAG3_ROLL, CAL_MAG3_PITCH and CAL_MAG3_YAW.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/-1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/8/description</name>
+  <message>
+  <source>Roll 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/9/description</name>
+  <message>
+  <source>Roll 180°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/10/description</name>
+  <message>
+  <source>Roll 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/11/description</name>
+  <message>
+  <source>Roll 180°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/12/description</name>
+  <message>
+  <source>Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/13/description</name>
+  <message>
+  <source>Roll 180°, Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/14/description</name>
+  <message>
+  <source>Roll 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/15/description</name>
+  <message>
+  <source>Roll 180°, Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/16/description</name>
+  <message>
+  <source>Roll 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/17/description</name>
+  <message>
+  <source>Roll 90°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/18/description</name>
+  <message>
+  <source>Roll 90°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/19/description</name>
+  <message>
+  <source>Roll 90°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/20/description</name>
+  <message>
+  <source>Roll 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/21/description</name>
+  <message>
+  <source>Roll 270°, Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/22/description</name>
+  <message>
+  <source>Roll 270°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/23/description</name>
+  <message>
+  <source>Roll 270°, Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/24/description</name>
+  <message>
+  <source>Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/25/description</name>
+  <message>
+  <source>Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/26/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/27/description</name>
+  <message>
+  <source>Pitch 180°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/28/description</name>
+  <message>
+  <source>Roll 90°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/29/description</name>
+  <message>
+  <source>Roll 180°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/30/description</name>
+  <message>
+  <source>Roll 270°, Pitch 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/31/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/32/description</name>
+  <message>
+  <source>Roll 270°, Pitch 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/33/description</name>
+  <message>
+  <source>Roll 90°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/34/description</name>
+  <message>
+  <source>Roll 180°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/35/description</name>
+  <message>
+  <source>Roll 270°, Pitch 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/36/description</name>
+  <message>
+  <source>Roll 90°, Pitch 180°, Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/37/description</name>
+  <message>
+  <source>Roll 90°, Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/38/description</name>
+  <message>
+  <source>Roll 90°, Pitch 68°, Yaw 293°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/39/description</name>
+  <message>
+  <source>Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/40/description</name>
+  <message>
+  <source>Roll 90°, Pitch 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ROT/values/100/description</name>
+  <message>
+  <source>Custom Euler Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_XCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 X Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_XCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_XODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 X-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_XOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 X-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_XSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 X-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_YAW/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Custom Euler Yaw Angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_YAW/longDesc</name>
+  <message>
+  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_YCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Y Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_YCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_YODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Y-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_YOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Y-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_YSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Y-axis scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ZCOMP/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Z Axis throttle compensation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ZCOMP/longDesc</name>
+  <message>
+  <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ZODIAG/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Z-axis off diagonal scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ZOFF/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Z-axis offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_MAG3_ZSCALE/shortDesc</name>
+  <message>
+  <source>Magnetometer 3 Z-axis scaling factor</source>
+  </message>
+</context>
+<context>
   <name>/parameters/CAL_MAG_COMP_TYP/shortDesc</name>
   <message>
   <source>Type of magnetometer compensation</source>
@@ -17178,90 +46536,6 @@
   <name>/parameters/SENS_FLOW_MINHGT/longDesc</name>
   <message>
   <source>This parameter defines the minimum distance from ground at which the optical flow sensor operates reliably. The sensor may be usable below this height, but accuracy will progressively reduce to loss of focus.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ADC_ADS1115_EN/shortDesc</name>
-  <message>
-  <source>Enable external ADS1115 ADC</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ADC_ADS1115_EN/longDesc</name>
-  <message>
-  <source>If enabled, the internal ADC is not used.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ADC_ADS1115_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/ADC_ADS1115_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT1_C_MULT/shortDesc</name>
-  <message>
-  <source>Capacity/current multiplier for high-current capable SMBUS battery</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT1_SMBUS_MODEL/shortDesc</name>
-  <message>
-  <source>Battery device model</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT1_SMBUS_MODEL/values/0/description</name>
-  <message>
-  <source>AutoDetect</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT1_SMBUS_MODEL/values/1/description</name>
-  <message>
-  <source>BQ40Z50 based</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT1_SMBUS_MODEL/values/2/description</name>
-  <message>
-  <source>BQ40Z80 based</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BATMON_ADDR_DFLT/shortDesc</name>
-  <message>
-  <source>I2C address for BatMon battery 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BATMON_DRIVER_EN/shortDesc</name>
-  <message>
-  <source>Parameter to enable BatMon module</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BATMON_DRIVER_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BATMON_DRIVER_EN/values/1/description</name>
-  <message>
-  <source>Start on default I2C addr(BATMON_ADDR_DFLT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BATMON_DRIVER_EN/values/2/description</name>
-  <message>
-  <source>Autodetect I2C address (TODO)</source>
   </message>
 </context>
 <context>
@@ -17637,204 +46911,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/INA220_CONFIG/shortDesc</name>
-  <message>
-  <source>INA220 Power Monitor Config</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA220_CUR_BAT/shortDesc</name>
-  <message>
-  <source>INA220 Power Monitor Battery Max Current</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA220_CUR_REG/shortDesc</name>
-  <message>
-  <source>INA220 Power Monitor Regulator Max Current</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA220_SHUNT_BAT/shortDesc</name>
-  <message>
-  <source>INA220 Power Monitor Battery Shunt</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA220_SHUNT_REG/shortDesc</name>
-  <message>
-  <source>INA220 Power Monitor Regulator Shunt</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA226_CONFIG/shortDesc</name>
-  <message>
-  <source>INA226 Power Monitor Config</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA226_CURRENT/shortDesc</name>
-  <message>
-  <source>INA226 Power Monitor Max Current</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA226_SHUNT/shortDesc</name>
-  <message>
-  <source>INA226 Power Monitor Shunt</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA228_CONFIG/shortDesc</name>
-  <message>
-  <source>INA228 Power Monitor Config</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA228_CURRENT/shortDesc</name>
-  <message>
-  <source>INA228 Power Monitor Max Current</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA228_SHUNT/shortDesc</name>
-  <message>
-  <source>INA228 Power Monitor Shunt</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA238_CURRENT/shortDesc</name>
-  <message>
-  <source>INA238 Power Monitor Max Current</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/INA238_SHUNT/shortDesc</name>
-  <message>
-  <source>INA238 Power Monitor Shunt</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PCF8583_MAGNET/shortDesc</name>
-  <message>
-  <source>PCF8583 rotorfreq (i2c) pulse count</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PCF8583_MAGNET/longDesc</name>
-  <message>
-  <source>Nmumber of signals per rotation of actuator</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PCF8583_POOL/shortDesc</name>
-  <message>
-  <source>PCF8583 rotorfreq (i2c) pool interval</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PCF8583_POOL/longDesc</name>
-  <message>
-  <source>Determines how often the sensor is read out.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PCF8583_RESET/shortDesc</name>
-  <message>
-  <source>PCF8583 rotorfreq (i2c) pulse reset value</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/PCF8583_RESET/longDesc</name>
-  <message>
-  <source>Internal device counter is reset to 0 when overrun this value, counter is able to store up to 6 digits reset of counter takes some time - measurement with reset has worse accuracy. 0 means reset counter after every measurement.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_HYSTER/shortDesc</name>
-  <message>
-  <source>AFBR Rangefinder Short/Long Range Threshold Hysteresis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_HYSTER/longDesc</name>
-  <message>
-  <source>This parameter defines the hysteresis for switching between short and long range mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_L_RATE/shortDesc</name>
-  <message>
-  <source>AFBR Rangefinder Long Range Rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_L_RATE/longDesc</name>
-  <message>
-  <source>This parameter defines measurement rate of the AFBR Rangefinder in long range mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_MODE/shortDesc</name>
-  <message>
-  <source>AFBR Rangefinder Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_MODE/longDesc</name>
-  <message>
-  <source>This parameter defines the mode of the AFBR Rangefinder.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_MODE/values/0/description</name>
-  <message>
-  <source>Short Range Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_MODE/values/1/description</name>
-  <message>
-  <source>Long Range Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_MODE/values/2/description</name>
-  <message>
-  <source>High Speed Short Range Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_MODE/values/3/description</name>
-  <message>
-  <source>High Speed Long Range Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_S_RATE/shortDesc</name>
-  <message>
-  <source>AFBR Rangefinder Short Range Rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_S_RATE/longDesc</name>
-  <message>
-  <source>This parameter defines measurement rate of the AFBR Rangefinder in short range mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_THRESH/shortDesc</name>
-  <message>
-  <source>AFBR Rangefinder Short/Long Range Threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_AFBR_THRESH/longDesc</name>
-  <message>
-  <source>This parameter defines the threshold for switching between short and long range mode. The mode will switch from short to long range when the distance is greater than the threshold plus the hysteresis. The mode will switch from long to short range when the distance is less than the threshold minus the hysteresis.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SENS_BARO_QNH/shortDesc</name>
   <message>
   <source>QNH for barometer</source>
@@ -18147,42 +47223,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_EN_ADIS164X/shortDesc</name>
-  <message>
-  <source>Analog Devices ADIS16448 IMU (external SPI)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ADIS164X/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ADIS164X/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ADIS165X/shortDesc</name>
-  <message>
-  <source>Analog Devices ADIS16507 IMU (external SPI)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ADIS165X/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ADIS165X/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SENS_EN_ARSPDSIM/shortDesc</name>
   <message>
   <source>Enable simulated airspeed sensor instance</source>
@@ -18196,24 +47236,6 @@
 </context>
 <context>
   <name>/parameters/SENS_EN_ARSPDSIM/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ASP5033/shortDesc</name>
-  <message>
-  <source>ASP5033 differential pressure sensor (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ASP5033/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ASP5033/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -18237,42 +47259,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_EN_BATT/shortDesc</name>
-  <message>
-  <source>SMBUS Smart battery driver BQ40Z50 and BQ40Z80</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_BATT/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_BATT/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ETSASPD/shortDesc</name>
-  <message>
-  <source>Eagle Tree airspeed sensor (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ETSASPD/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_ETSASPD/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SENS_EN_GPSSIM/shortDesc</name>
   <message>
   <source>Enable simulated GPS sinstance</source>
@@ -18291,144 +47277,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_EN_INA220/shortDesc</name>
-  <message>
-  <source>Enable INA220 Power Monitor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA220/longDesc</name>
-  <message>
-  <source>For systems a INA220 Power Monitor, this should be set to true</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA220/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA220/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA226/shortDesc</name>
-  <message>
-  <source>Enable INA226 Power Monitor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA226/longDesc</name>
-  <message>
-  <source>For systems a INA226 Power Monitor, this should be set to true</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA226/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA226/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA228/shortDesc</name>
-  <message>
-  <source>Enable INA228 Power Monitor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA228/longDesc</name>
-  <message>
-  <source>For systems a INA228 Power Monitor, this should be set to true</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA228/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA228/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA238/shortDesc</name>
-  <message>
-  <source>Enable INA238 Power Monitor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA238/longDesc</name>
-  <message>
-  <source>For systems a INA238 Power Monitor, this should be set to true</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA238/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_INA238/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_IRLOCK/shortDesc</name>
-  <message>
-  <source>IR-LOCK Sensor (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_IRLOCK/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_IRLOCK/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_LL40LS/shortDesc</name>
-  <message>
-  <source>Lidar-Lite (LL40LS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_LL40LS/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_LL40LS/values/1/description</name>
-  <message>
-  <source>PWM</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_LL40LS/values/2/description</name>
-  <message>
-  <source>I2C</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SENS_EN_MAGSIM/shortDesc</name>
   <message>
   <source>Enable simulated magnetometer sensor instance</source>
@@ -18442,408 +47290,6 @@
 </context>
 <context>
   <name>/parameters/SENS_EN_MAGSIM/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MB12XX/shortDesc</name>
-  <message>
-  <source>Maxbotix Sonar (mb12xx)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MB12XX/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MB12XX/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MPDT/shortDesc</name>
-  <message>
-  <source>Enable Mappydot rangefinder (i2c)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MPDT/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MPDT/values/1/description</name>
-  <message>
-  <source>Autodetect</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS4515/shortDesc</name>
-  <message>
-  <source>TE MS4515 differential pressure sensor (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS4515/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS4515/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS4525DO/shortDesc</name>
-  <message>
-  <source>TE MS4525DO differential pressure sensor (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS4525DO/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS4525DO/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS5525DS/shortDesc</name>
-  <message>
-  <source>TE MS5525DSO differential pressure sensor (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS5525DS/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_MS5525DS/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PAA3905/shortDesc</name>
-  <message>
-  <source>PAA3905 Optical Flow</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PAA3905/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PAA3905/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PAW3902/shortDesc</name>
-  <message>
-  <source>PAW3902/PAW3903 Optical Flow</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PAW3902/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PAW3902/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PCF8583/shortDesc</name>
-  <message>
-  <source>PCF8583 eneable driver</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PCF8583/longDesc</name>
-  <message>
-  <source>Run PCF8583 driver automatically</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PCF8583/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PCF8583/values/1/description</name>
-  <message>
-  <source>Eneabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PGA460/shortDesc</name>
-  <message>
-  <source>PGA460 Ultrasonic driver (PGA460)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PGA460/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PGA460/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PMW3901/shortDesc</name>
-  <message>
-  <source>PMW3901 Optical Flow</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PMW3901/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PMW3901/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PX4FLOW/shortDesc</name>
-  <message>
-  <source>PX4 Flow Optical Flow</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PX4FLOW/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_PX4FLOW/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SDP3X/shortDesc</name>
-  <message>
-  <source>Sensirion SDP3X differential pressure sensor (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SDP3X/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SDP3X/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/shortDesc</name>
-  <message>
-  <source>Lightware Laser Rangefinder hardware model (serial)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/1/description</name>
-  <message>
-  <source>SF02</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/2/description</name>
-  <message>
-  <source>SF10/a</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/3/description</name>
-  <message>
-  <source>SF10/b</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/4/description</name>
-  <message>
-  <source>SF10/c</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/5/description</name>
-  <message>
-  <source>SF11/c</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/6/description</name>
-  <message>
-  <source>SF30/b</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/7/description</name>
-  <message>
-  <source>SF30/c</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF0X/values/8/description</name>
-  <message>
-  <source>LW20/c</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/shortDesc</name>
-  <message>
-  <source>Lightware SF1xx/SF20/LW20 laser rangefinder (i2c)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/1/description</name>
-  <message>
-  <source>SF10/a</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/2/description</name>
-  <message>
-  <source>SF10/b</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/3/description</name>
-  <message>
-  <source>SF10/c</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/4/description</name>
-  <message>
-  <source>SF11/c</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/5/description</name>
-  <message>
-  <source>SF/LW20/b</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/6/description</name>
-  <message>
-  <source>SF/LW20/c</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SF1XX/values/7/description</name>
-  <message>
-  <source>SF/LW30/d</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SHT3X/shortDesc</name>
-  <message>
-  <source>SHT3x temperature and hygrometer</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SHT3X/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SHT3X/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SPL06/shortDesc</name>
-  <message>
-  <source>Goertek SPL06 Barometer (external I2C)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SPL06/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SPL06/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SR05/shortDesc</name>
-  <message>
-  <source>HY-SRF05 / HC-SR05</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SR05/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_SR05/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TF02PRO/shortDesc</name>
-  <message>
-  <source>TF02 Pro Distance Sensor (i2c)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TF02PRO/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TF02PRO/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -18870,84 +47316,6 @@
   <name>/parameters/SENS_EN_THERMAL/values/1/description</name>
   <message>
   <source>Thermal control enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TRANGER/shortDesc</name>
-  <message>
-  <source>TeraRanger Rangefinder (i2c)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TRANGER/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TRANGER/values/1/description</name>
-  <message>
-  <source>Autodetect</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TRANGER/values/2/description</name>
-  <message>
-  <source>TROne</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TRANGER/values/3/description</name>
-  <message>
-  <source>TREvo60m</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TRANGER/values/4/description</name>
-  <message>
-  <source>TREvo600Hz</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_TRANGER/values/5/description</name>
-  <message>
-  <source>TREvo3m</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_VL53L0X/shortDesc</name>
-  <message>
-  <source>VL53L0X Distance Sensor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_VL53L0X/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_VL53L0X/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_VL53L1X/shortDesc</name>
-  <message>
-  <source>VL53L1X Distance Sensor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_VL53L1X/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_EN_VL53L1X/values/1/description</name>
-  <message>
-  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -19143,30 +47511,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_IMU_TEMP/shortDesc</name>
-  <message>
-  <source>Target IMU temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_IMU_TEMP_FF/shortDesc</name>
-  <message>
-  <source>IMU heater controller feedforward value</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_IMU_TEMP_I/shortDesc</name>
-  <message>
-  <source>IMU heater controller integrator gain value</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_IMU_TEMP_P/shortDesc</name>
-  <message>
-  <source>IMU heater controller proportional gain value</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SENS_INT_BARO_EN/shortDesc</name>
   <message>
   <source>Enable internal barometers</source>
@@ -19299,1470 +47643,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_MB12_0_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 0 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_0_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 10 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_10_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 12 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_11_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 1 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_1_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 2 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_2_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 3 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_3_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 4 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_4_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 5 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_5_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 6 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_6_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 7 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_7_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 8 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_8_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/shortDesc</name>
-  <message>
-  <source>MaxBotix MB12XX Sensor 9 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MB12_9_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 0 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT0_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 10 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT10_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 12 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT11_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 1 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT1_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 2 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT2_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 3 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT3_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 4 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT4_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 5 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT5_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 6 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT6_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 7 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT7_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 8 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT8_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/shortDesc</name>
-  <message>
-  <source>MappyDot Sensor 9 Rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/longDesc</name>
-  <message>
-  <source>This parameter defines the rotation of the Mappydot sensor relative to the platform.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/0/description</name>
-  <message>
-  <source>No rotation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/1/description</name>
-  <message>
-  <source>Yaw 45°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/2/description</name>
-  <message>
-  <source>Yaw 90°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/3/description</name>
-  <message>
-  <source>Yaw 135°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/4/description</name>
-  <message>
-  <source>Yaw 180°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/5/description</name>
-  <message>
-  <source>Yaw 225°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/6/description</name>
-  <message>
-  <source>Yaw 270°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_MPDT9_ROT/values/7/description</name>
-  <message>
-  <source>Yaw 315°</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_OR_ADIS164X/shortDesc</name>
-  <message>
-  <source>Analog Devices ADIS16448 IMU Orientation(external SPI)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_OR_ADIS164X/values/0/description</name>
-  <message>
-  <source>ROTATION_NONE</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_OR_ADIS164X/values/4/description</name>
-  <message>
-  <source>ROTATION_YAW_180</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_TEMP_ID/shortDesc</name>
-  <message>
-  <source>Target IMU device ID to regulate temperature</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SIM_ARSPD_FAIL/shortDesc</name>
   <message>
   <source>Dynamically simulate failure of airspeed sensor instance</source>
@@ -20778,96 +47658,6 @@
   <name>/parameters/SIM_ARSPD_FAIL/values/1/description</name>
   <message>
   <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/VOXLPM_SHUNT_BAT/shortDesc</name>
-  <message>
-  <source>VOXL Power Monitor Shunt, Battery</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/VOXLPM_SHUNT_REG/shortDesc</name>
-  <message>
-  <source>VOXL Power Monitor Shunt, Regulator</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/shortDesc</name>
-  <message>
-  <source>MXS Serial Communication Baud rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/longDesc</name>
-  <message>
-  <source>Baudrate for the Serial Port connected to the MXS Transponder</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/0/description</name>
-  <message>
-  <source>38400</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/1/description</name>
-  <message>
-  <source>600</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/2/description</name>
-  <message>
-  <source>4800</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/3/description</name>
-  <message>
-  <source>9600</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/4/description</name>
-  <message>
-  <source>RESERVED</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/5/description</name>
-  <message>
-  <source>57600</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/6/description</name>
-  <message>
-  <source>115200</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/7/description</name>
-  <message>
-  <source>230400</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/8/description</name>
-  <message>
-  <source>19200</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/9/description</name>
-  <message>
-  <source>460800</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SER_MXS_BAUD/values/10/description</name>
-  <message>
-  <source>921600</source>
   </message>
 </context>
 <context>
@@ -21550,30 +48340,6 @@
 </context>
 <context>
   <name>/parameters/SYS_STCK_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TEL_BST_EN/shortDesc</name>
-  <message>
-  <source>Blacksheep telemetry Enable</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TEL_BST_EN/longDesc</name>
-  <message>
-  <source>If true, the FMU will try to connect to Blacksheep telemetry on start up</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TEL_BST_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TEL_BST_EN/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -23151,169 +49917,19 @@
   </message>
 </context>
 <context>
-  <name>/parameters/MXS_EXT_CFG/shortDesc</name>
+  <name>/parameters/I2C_OUT_EN/shortDesc</name>
   <message>
-  <source>Sagetech External Configuration Mode</source>
+  <source>Simulator Gazebo bridge enable</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MXS_EXT_CFG/longDesc</name>
-  <message>
-  <source>Disables auto-configuration mode enabling MXS config through external software.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_EXT_CFG/values/0/description</name>
+  <name>/parameters/I2C_OUT_EN/values/0/description</name>
   <message>
   <source>Disabled</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MXS_EXT_CFG/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_OP_MODE/shortDesc</name>
-  <message>
-  <source>Sagetech MXS mode configuration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_OP_MODE/longDesc</name>
-  <message>
-  <source>This parameter defines the operating mode of the MXS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_OP_MODE/values/0/description</name>
-  <message>
-  <source>Off</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_OP_MODE/values/1/description</name>
-  <message>
-  <source>On</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_OP_MODE/values/2/description</name>
-  <message>
-  <source>Standby</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_OP_MODE/values/3/description</name>
-  <message>
-  <source>Alt</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_TARG_PORT/shortDesc</name>
-  <message>
-  <source>Sagetech MXS Participant Configuration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_TARG_PORT/longDesc</name>
-  <message>
-  <source>The MXS communication port to receive Target data from</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_TARG_PORT/values/0/description</name>
-  <message>
-  <source>Auto</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_TARG_PORT/values/1/description</name>
-  <message>
-  <source>COM0</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MXS_TARG_PORT/values/2/description</name>
-  <message>
-  <source>COM1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_BITRATE/shortDesc</name>
-  <message>
-  <source>UAVCAN CAN bus bitrate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_PUB_MBD/shortDesc</name>
-  <message>
-  <source>Enable MovingBaselineData publication</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_PUB_MBD/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_PUB_MBD/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_SUB_MBD/shortDesc</name>
-  <message>
-  <source>Enable MovingBaselineData subscription</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_SUB_MBD/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_SUB_MBD/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_SUB_RTCM/shortDesc</name>
-  <message>
-  <source>Enable RTCM subscription</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_SUB_RTCM/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_SUB_RTCM/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_TERM/shortDesc</name>
-  <message>
-  <source>CAN built-in bus termination</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_TERM/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CANNODE_TERM/values/1/description</name>
+  <name>/parameters/I2C_OUT_EN/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -23332,594 +49948,6 @@
 </context>
 <context>
   <name>/parameters/SIM_GZ_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_BITRATE/shortDesc</name>
-  <message>
-  <source>UAVCAN CAN bus bitrate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_ENABLE/shortDesc</name>
-  <message>
-  <source>UAVCAN mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_ENABLE/longDesc</name>
-  <message>
-  <source>0 - UAVCAN disabled. 1 - Enables support for UAVCAN sensors without dynamic node ID allocation and firmware update. 2 - Enables support for UAVCAN sensors with dynamic node ID allocation and firmware update. 3 - Enables support for UAVCAN sensors and actuators with dynamic node ID allocation and firmware update. Also sets the motor control outputs to UAVCAN.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_ENABLE/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_ENABLE/values/1/description</name>
-  <message>
-  <source>Sensors Manual Config</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_ENABLE/values/2/description</name>
-  <message>
-  <source>Sensors Automatic Config</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_ENABLE/values/3/description</name>
-  <message>
-  <source>Sensors and Actuators (ESCs) Automatic Config</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_ANTCL/shortDesc</name>
-  <message>
-  <source>UAVCAN ANTI_COLLISION light operating mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_ANTCL/longDesc</name>
-  <message>
-  <source>This parameter defines the minimum condition under which the system will command the ANTI_COLLISION lights on 0 - Always off 1 - When autopilot is armed 2 - When autopilot is prearmed 3 - Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_ANTCL/values/0/description</name>
-  <message>
-  <source>Always off</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_ANTCL/values/1/description</name>
-  <message>
-  <source>When autopilot is armed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_ANTCL/values/2/description</name>
-  <message>
-  <source>When autopilot is prearmed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_ANTCL/values/3/description</name>
-  <message>
-  <source>Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_LAND/shortDesc</name>
-  <message>
-  <source>UAVCAN LIGHT_ID_LANDING light operating mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_LAND/longDesc</name>
-  <message>
-  <source>This parameter defines the minimum condition under which the system will command the LIGHT_ID_LANDING lights on 0 - Always off 1 - When autopilot is armed 2 - When autopilot is prearmed 3 - Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_LAND/values/0/description</name>
-  <message>
-  <source>Always off</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_LAND/values/1/description</name>
-  <message>
-  <source>When autopilot is armed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_LAND/values/2/description</name>
-  <message>
-  <source>When autopilot is prearmed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_LAND/values/3/description</name>
-  <message>
-  <source>Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_NAV/shortDesc</name>
-  <message>
-  <source>UAVCAN RIGHT_OF_WAY light operating mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_NAV/longDesc</name>
-  <message>
-  <source>This parameter defines the minimum condition under which the system will command the RIGHT_OF_WAY lights on 0 - Always off 1 - When autopilot is armed 2 - When autopilot is prearmed 3 - Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_NAV/values/0/description</name>
-  <message>
-  <source>Always off</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_NAV/values/1/description</name>
-  <message>
-  <source>When autopilot is armed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_NAV/values/2/description</name>
-  <message>
-  <source>When autopilot is prearmed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_NAV/values/3/description</name>
-  <message>
-  <source>Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_STROB/shortDesc</name>
-  <message>
-  <source>UAVCAN STROBE light operating mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_STROB/longDesc</name>
-  <message>
-  <source>This parameter defines the minimum condition under which the system will command the STROBE lights on 0 - Always off 1 - When autopilot is armed 2 - When autopilot is prearmed 3 - Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_STROB/values/0/description</name>
-  <message>
-  <source>Always off</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_STROB/values/1/description</name>
-  <message>
-  <source>When autopilot is armed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_STROB/values/2/description</name>
-  <message>
-  <source>When autopilot is prearmed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_LGT_STROB/values/3/description</name>
-  <message>
-  <source>Always on</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_NODE_ID/shortDesc</name>
-  <message>
-  <source>UAVCAN Node ID</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_NODE_ID/longDesc</name>
-  <message>
-  <source>Read the specs at http://uavcan.org to learn more about Node ID.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_ARM/shortDesc</name>
-  <message>
-  <source>publish Arming Status stream</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_ARM/longDesc</name>
-  <message>
-  <source>Enable UAVCAN Arming Status stream publication uavcan::equipment::safety::ArmingStatus</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_ARM/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_ARM/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_MBD/shortDesc</name>
-  <message>
-  <source>publish moving baseline data RTCM stream</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_MBD/longDesc</name>
-  <message>
-  <source>Enable UAVCAN RTCM stream publication ardupilot::gnss::MovingBaselineData</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_MBD/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_MBD/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_RTCM/shortDesc</name>
-  <message>
-  <source>publish RTCM stream</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_RTCM/longDesc</name>
-  <message>
-  <source>Enable UAVCAN RTCM stream publication uavcan::equipment::gnss::RTCMStream</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_RTCM/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_PUB_RTCM/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_RNG_MAX/shortDesc</name>
-  <message>
-  <source>UAVCAN rangefinder maximum range</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_RNG_MAX/longDesc</name>
-  <message>
-  <source>This parameter defines the maximum valid range for a rangefinder connected via UAVCAN.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_RNG_MIN/shortDesc</name>
-  <message>
-  <source>UAVCAN rangefinder minimum range</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_RNG_MIN/longDesc</name>
-  <message>
-  <source>This parameter defines the minimum valid range for a rangefinder connected via UAVCAN.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ASPD/shortDesc</name>
-  <message>
-  <source>subscription airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ASPD/longDesc</name>
-  <message>
-  <source>Enable UAVCAN airspeed subscriptions. uavcan::equipment::air_data::IndicatedAirspeed uavcan::equipment::air_data::TrueAirspeed uavcan::equipment::air_data::StaticTemperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ASPD/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ASPD/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BARO/shortDesc</name>
-  <message>
-  <source>subscription barometer</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BARO/longDesc</name>
-  <message>
-  <source>Enable UAVCAN barometer subscription. uavcan::equipment::air_data::StaticPressure uavcan::equipment::air_data::StaticTemperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BARO/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BARO/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BAT/shortDesc</name>
-  <message>
-  <source>subscription battery</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BAT/longDesc</name>
-  <message>
-  <source>Enable UAVCAN battery subscription. uavcan::equipment::power::BatteryInfo ardupilot::equipment::power::BatteryInfoAux 0 - Disable 1 - Use raw data. Recommended for Smart battery 2 - Filter the data with internal battery library</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BAT/values/0/description</name>
-  <message>
-  <source>Disable</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BAT/values/1/description</name>
-  <message>
-  <source>Raw data</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BAT/values/2/description</name>
-  <message>
-  <source>Filter data</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BTN/shortDesc</name>
-  <message>
-  <source>subscription button</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BTN/longDesc</name>
-  <message>
-  <source>Enable UAVCAN button subscription. ardupilot::indication::Button</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BTN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_BTN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_DPRES/shortDesc</name>
-  <message>
-  <source>subscription differential pressure</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_DPRES/longDesc</name>
-  <message>
-  <source>Enable UAVCAN differential pressure subscription. uavcan::equipment::air_data::RawAirData</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_DPRES/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_DPRES/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_FLOW/shortDesc</name>
-  <message>
-  <source>subscription flow</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_FLOW/longDesc</name>
-  <message>
-  <source>Enable UAVCAN optical flow subscription.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_FLOW/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_FLOW/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_GPS/shortDesc</name>
-  <message>
-  <source>subscription GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_GPS/longDesc</name>
-  <message>
-  <source>Enable UAVCAN GPS subscriptions. uavcan::equipment::gnss::Fix uavcan::equipment::gnss::Fix2 uavcan::equipment::gnss::Auxiliary</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_GPS/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_GPS/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_HYGRO/shortDesc</name>
-  <message>
-  <source>subscription hygrometer</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_HYGRO/longDesc</name>
-  <message>
-  <source>Enable UAVCAN hygrometer subscriptions. dronecan::sensors::hygrometer::Hygrometer</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_HYGRO/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_HYGRO/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ICE/shortDesc</name>
-  <message>
-  <source>subscription ICE</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ICE/longDesc</name>
-  <message>
-  <source>Enable UAVCAN internal combustion engine (ICE) subscription. uavcan::equipment::ice::reciprocating::Status</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ICE/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_ICE/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_IMU/shortDesc</name>
-  <message>
-  <source>subscription IMU</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_IMU/longDesc</name>
-  <message>
-  <source>Enable UAVCAN IMU subscription. uavcan::equipment::ahrs::RawIMU</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_IMU/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_IMU/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_MAG/shortDesc</name>
-  <message>
-  <source>subscription magnetometer</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_MAG/longDesc</name>
-  <message>
-  <source>Enable UAVCAN mag subscription. uavcan::equipment::ahrs::MagneticFieldStrength uavcan::equipment::ahrs::MagneticFieldStrength2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_MAG/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_MAG/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_RNG/shortDesc</name>
-  <message>
-  <source>subscription range finder</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_RNG/longDesc</name>
-  <message>
-  <source>Enable UAVCAN range finder subscription. uavcan::equipment::range_sensor::Measurement</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_RNG/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/UAVCAN_SUB_RNG/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -24054,6 +50082,108 @@
   <name>/parameters/UUV_STAB_MODE/values/1/description</name>
   <message>
   <source>Stabilization Mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_AG_IP/shortDesc</name>
+  <message>
+  <source>uXRCE-DDS Agent IP address</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_AG_IP/longDesc</name>
+  <message>
+  <source>If ethernet is enabled and is the selected configuration for uXRCE-DDS, the selected Agent IP address will be set and used. Decimal dot notation is not supported. IP address must be provided in int32 format. For example, 192.168.1.2 is mapped to -1062731518; 127.0.0.1 is mapped to 2130706433.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_DOM_ID/shortDesc</name>
+  <message>
+  <source>uXRCE-DDS domain ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_DOM_ID/longDesc</name>
+  <message>
+  <source>uXRCE-DDS domain ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_KEY/shortDesc</name>
+  <message>
+  <source>uXRCE-DDS session key</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_KEY/longDesc</name>
+  <message>
+  <source>uXRCE-DDS key, must be different from zero. In a single agent - multi client configuration, each client must have a unique session key.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_PRT/shortDesc</name>
+  <message>
+  <source>uXRCE-DDS UDP port</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_PRT/longDesc</name>
+  <message>
+  <source>If ethernet is enabled and is the selected configuration for uXRCE-DDS, the selected UDP port will be set and used.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_PTCFG/shortDesc</name>
+  <message>
+  <source>uXRCE-DDS participant configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_PTCFG/longDesc</name>
+  <message>
+  <source>Set the participant configuration on the Agent's system. 0: Use the default configuration. 1: Restrict messages to localhost (use in combination with ROS_LOCALHOST_ONLY=1). 2: Use a custom participant with the profile name "px4_participant".</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_PTCFG/values/0/description</name>
+  <message>
+  <source>Default</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_PTCFG/values/1/description</name>
+  <message>
+  <source>Localhost-only</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_PTCFG/values/2/description</name>
+  <message>
+  <source>Custom participant</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_SYNCT/shortDesc</name>
+  <message>
+  <source>Enable uXRCE-DDS timestamp synchronization</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_SYNCT/longDesc</name>
+  <message>
+  <source>When enabled, uxrce_dds_client will synchronize the timestamps of the incoming and outgoing messages measuring the offset between the Agent OS time and the PX4 time.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_SYNCT/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_SYNCT/values/1/description</name>
+  <message>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -24561,51 +50691,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Developer</name>
-  <message>
-  <source>Developer</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/Standard</name>
   <message>
   <source>Standard</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/System</name>
+  <name>$globals/category/Developer</name>
   <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
+  <source>Developer</source>
   </message>
 </context>
 <context>
@@ -24615,135 +50709,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Precision Land</name>
+  <name>$globals/group/SITL</name>
   <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Telemetry</name>
-  <message>
-  <source>Telemetry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
+  <source>SITL</source>
   </message>
 </context>
 <context>
@@ -24753,177 +50721,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Manual Control</name>
   <message>
   <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Iridium SBD</name>
-  <message>
-  <source>Iridium SBD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera trigger</name>
-  <message>
-  <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MODAL IO</name>
-  <message>
-  <source>MODAL IO</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
   </message>
 </context>
 <context>
@@ -24933,21 +50733,147 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/ADSB</name>
+  <name>$globals/group/EKF2</name>
   <message>
-  <source>ADSB</source>
+  <source>EKF2</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Battery Calibration</name>
+  <name>$globals/group/UUV Position Control</name>
   <message>
-  <source>Battery Calibration</source>
+  <source>UUV Position Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/OSD</name>
+  <name>$globals/group/UAVCAN</name>
   <message>
-  <source>OSD</source>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Payload Deliverer</name>
+  <message>
+  <source>Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Actuator Outputs</name>
+  <message>
+  <source>Actuator Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
   </message>
 </context>
 <context>
@@ -24957,15 +50883,51 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/FW Auto Landing</name>
   <message>
   <source>FW Auto Landing</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Sensors</name>
+  <name>$globals/group/Airspeed Validator</name>
   <message>
-  <source>Sensors</source>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
   </message>
 </context>
 <context>
@@ -24975,9 +50937,81 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Attitude Control</name>
+  <name>$globals/group/Mount</name>
   <message>
-  <source>VTOL Attitude Control</source>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Events</name>
+  <message>
+  <source>Events</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
   </message>
 </context>
 <context>
@@ -24987,9 +51021,39 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Serial</name>
+  <name>$globals/group/SD Logging</name>
   <message>
-  <source>Serial</source>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera trigger</name>
+  <message>
+  <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
   </message>
 </context>
 <context>
@@ -24999,15 +51063,45 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Follow target</name>
   <message>
   <source>Follow target</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Camera Control</name>
+  <name>$globals/group/Hover Thrust Estimator</name>
   <message>
-  <source>Camera Control</source>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
   </message>
 </context>
 </TS>

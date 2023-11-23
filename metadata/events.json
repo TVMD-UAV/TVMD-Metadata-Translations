@@ -471,6 +471,24 @@
           },
           "type": "uint8_t"
         },
+        "geofence_violation_reason_t": {
+          "description": "Reason for geofence violation",
+          "entries": {
+            "0": {
+              "description": "maximum distance to home exceeded",
+              "name": "dist_to_home_exceeded"
+            },
+            "1": {
+              "description": "maximum altitude exceeded",
+              "name": "max_altitude_exceeded"
+            },
+            "2": {
+              "description": "approaching or outside geofence",
+              "name": "fence_violation"
+            }
+          },
+          "type": "uint8_t"
+        },
         "health_component_t": {
           "description": "Bitfield for subsystems & components",
           "entries": {
@@ -620,17 +638,9 @@
               "description": "Precision Land",
               "name": "precland"
             },
-            "1073741824": {
-              "description": "External 8",
-              "name": "external8"
-            },
             "131072": {
               "description": "Takeoff",
               "name": "takeoff"
-            },
-            "134217728": {
-              "description": "External 5",
-              "name": "external5"
             },
             "16": {
               "description": "Loiter",
@@ -639,10 +649,6 @@
             "16384": {
               "description": "Offboard",
               "name": "offboard"
-            },
-            "16777216": {
-              "description": "External 2",
-              "name": "external2"
             },
             "2": {
               "description": "Altitude mode",
@@ -656,10 +662,6 @@
               "description": "Land",
               "name": "land"
             },
-            "268435456": {
-              "description": "External 6",
-              "name": "external6"
-            },
             "32": {
               "description": "RTL",
               "name": "rtl"
@@ -667,10 +669,6 @@
             "32768": {
               "description": "Stabilized",
               "name": "stab"
-            },
-            "33554432": {
-              "description": "External 3",
-              "name": "external3"
             },
             "4": {
               "description": "Position mode",
@@ -684,21 +682,9 @@
               "description": "Follow Target",
               "name": "follow_target"
             },
-            "536870912": {
-              "description": "External 7",
-              "name": "external7"
-            },
-            "67108864": {
-              "description": "External 4",
-              "name": "external4"
-            },
             "8": {
               "description": "Mission mode",
               "name": "mission"
-            },
-            "8388608": {
-              "description": "External 1",
-              "name": "external1"
             }
           },
           "is_bitfield": true,
@@ -739,41 +725,9 @@
               "description": "Vtol Takeoff",
               "name": "auto_vtol_takeoff"
             },
-            "16": {
-              "description": "External 1",
-              "name": "external1"
-            },
-            "17": {
-              "description": "External 2",
-              "name": "external2"
-            },
-            "18": {
-              "description": "External 3",
-              "name": "external3"
-            },
-            "19": {
-              "description": "External 4",
-              "name": "external4"
-            },
             "2": {
               "description": "Position control",
               "name": "posctl"
-            },
-            "20": {
-              "description": "External 5",
-              "name": "external5"
-            },
-            "21": {
-              "description": "External 6",
-              "name": "external6"
-            },
-            "22": {
-              "description": "External 7",
-              "name": "external7"
-            },
-            "23": {
-              "description": "External 8",
-              "name": "external8"
             },
             "255": {
               "description": "[Unknown]",
@@ -1192,6 +1146,25 @@
               "message": "Not enough GPS Satellites",
               "name": "check_estimator_gps_num_sats_too_low"
             },
+            "13131225": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "px4::geofence_violation_reason_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
+              "message": "Geofence violation: {3}",
+              "name": "check_gf_violation"
+            },
             "1326449": {
               "arguments": [
                 {
@@ -1238,21 +1211,6 @@
               "message": "No valid local position estimate",
               "name": "check_modes_local_pos"
             },
-            "13923616": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_VER_DIST</param> parameters.\n</profile>",
-              "message": "Geofence violation: exceeding maximum altitude above Home",
-              "name": "check_gf_violation_max_alt"
-            },
             "14200647": {
               "arguments": [
                 {
@@ -1268,21 +1226,6 @@
               "message": "Vehicle is not in multicopter mode",
               "name": "check_system_vtol_in_fw_mode"
             },
-            "143019": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
-              "message": "Geofence violation: approaching or outside geofence",
-              "name": "check_gf_violation_custom_gf"
-            },
             "14644618": {
               "arguments": [
                 {
@@ -1297,21 +1240,6 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>COM_FLT_TIME_MAX</param> parameter.\n</profile>",
               "message": "Maximum flight time reached",
               "name": "check_flight_time_limit"
-            },
-            "14748737": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The application running the mode is not started.",
-              "message": "Mode is not registered",
-              "name": "check_external_modes_unavailable"
             },
             "15180799": {
               "arguments": [
@@ -1708,21 +1636,6 @@
               "description": "Upload a mission first.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_MIS_REQ</param> parameter.\n</profile>",
               "message": "No valid mission available",
               "name": "check_modes_mission"
-            },
-            "4065583": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_HOR_DIST</param> parameters.\n</profile>",
-              "message": "Geofence violation: exceeding maximum distance to Home",
-              "name": "check_gf_violation_max_hor_dist"
             },
             "4261821": {
               "arguments": [
@@ -2363,21 +2276,6 @@
               "message": "Angular velocity not valid",
               "name": "check_modes_angular_velocity"
             },
-            "9815168": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The application running the mode might have crashed or the CPU load is too high.",
-              "message": "Mode is unresponsive",
-              "name": "check_external_modes_unresponsive"
-            },
             "9965819": {
               "arguments": [
                 {
@@ -2527,9 +2425,16 @@
               "message": "SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}",
               "name": "mavlink_rcv_sp_target_gl_invalid_coord"
             },
-            "10973461": {
-              "message": "Geofence invalid, doesn't contain Home position",
-              "name": "navigator_geofence_invalid_against_home"
+            "11078412": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_DRAG_CTRL instead",
+              "name": "ekf2_aid_mask_drag"
             },
             "11085221": {
               "message": "Mission: unable to write to storage",
@@ -2538,10 +2443,6 @@
             "11123101": {
               "message": "Connection to mission computer lost",
               "name": "commander_mission_comp_lost"
-            },
-            "11174541": {
-              "message": "Hardware fault: Camera capture disabled",
-              "name": "camera_capture_trigger_rate_exceeded"
             },
             "1119664": {
               "arguments": [
@@ -2559,7 +2460,7 @@
               "name": "fixedwing_position_control_conf_invalid_stall"
             },
             "11290563": {
-              "message": "Kill engaged",
+              "message": "Kill-switch engaged",
               "name": "commander_kill_sw_engaged"
             },
             "11521721": {
@@ -2669,10 +2570,6 @@
               "message": "logging: opening log file {1}-{2}-{3}/{4}_{5}_{6}.ulg",
               "name": "logger_open_file_time"
             },
-            "12117072": {
-              "message": "Transponder System Failure",
-              "name": "mxs_system_fail"
-            },
             "12140426": {
               "arguments": [
                 {
@@ -2680,7 +2577,7 @@
                   "type": "float"
                 }
               ],
-              "description": "<param>EKF2_MAG_TYPE</param> is set to {1:.0}.",
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
               "message": "EKF2_MAG_TYPE invalid, resetting to default",
               "name": "ekf2_mag_type_invalid"
             },
@@ -2763,10 +2660,6 @@
               "message": "{1} sensor #{2} failure: {3}",
               "name": "sensor_failover"
             },
-            "1290073": {
-              "message": "IO RC config upload failed, aborting initialization",
-              "name": "px4io_io_rc_config_upload_failed"
-            },
             "12957883": {
               "message": "Start descending",
               "name": "fixedwing_position_control_descend"
@@ -2796,6 +2689,17 @@
               ],
               "message": "Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})",
               "name": "navigator_mis_wp_gate_too_close"
+            },
+            "13439583": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_EV_CTRL</param> is set to {1:.0}.",
+              "message": "EV vertical position enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_ev"
             },
             "13471314": {
               "message": "Quad-chute triggered due to loss of altitude during transition",
@@ -2869,9 +2773,41 @@
               "message": "Manual speed has been constrained by maximum speed",
               "name": "mc_pos_ctrl_man_vel_set"
             },
+            "14188249": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_RNG_CTRL</param> is set to {1:.0}.",
+              "message": "Range enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_rng"
+            },
             "14234660": {
               "message": "GCS connection regained",
               "name": "commander_dl_regained"
+            },
+            "14380058": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_GPS_CTRL instead",
+              "name": "ekf2_aid_mask_gps"
+            },
+            "1438136": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Geofence: maximum distance from home reached ({1:.0m})",
+              "name": "navigator_geofence_max_dist_from_home"
             },
             "14443523": {
               "message": "Launch detected: enable motors",
@@ -2984,10 +2920,6 @@
               "message": "Accel {1} clipping, not safe to fly!",
               "name": "vehicle_imu_accel_clipping"
             },
-            "15536452": {
-              "message": "External mode is unresponsive, falling back to internal",
-              "name": "commander_mode_fallback_internal"
-            },
             "15598001": {
               "message": "Executing Mission",
               "name": "mission_execute"
@@ -3028,10 +2960,6 @@
               "description": "<param>MPC_XY_CRUISE</param> is set to {1:.0}.",
               "message": "Cruise speed has been constrained by maximum speed",
               "name": "mc_pos_ctrl_cruise_set"
-            },
-            "15923029": {
-              "message": "IO protocol/firmware mismatch, aborting initialization",
-              "name": "px4io_proto_fw_mismatch"
             },
             "16017271": {
               "arguments": [
@@ -3093,7 +3021,7 @@
               "name": "navigator_mis_takeoff_not_first"
             },
             "16682655": {
-              "message": "Kill disengaged",
+              "message": "Kill-switch disengaged",
               "name": "commander_kill_sw_disengaged"
             },
             "16691824": {
@@ -3150,6 +3078,17 @@
             "2087806": {
               "message": "Orbit radius limit exceeded",
               "name": "orbit_radius_exceeded"
+            },
+            "2225852": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_OF_CTRL instead",
+              "name": "ekf2_aid_mask_opt_flow"
             },
             "2321600": {
               "message": "Already higher than takeoff altitude (not descending)",
@@ -3255,6 +3194,17 @@
               "message": "Mission rejected: No home position, waypoint {1} uses relative altitude",
               "name": "navigator_mis_no_home_rel_alt"
             },
+            "3386258": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_GPS_CTRL</param> is set to {1:.0}.",
+              "message": "GPS lon/lat is required for altitude fusion",
+              "name": "ekf2_gps_ctrl_alt"
+            },
             "3390156": {
               "message": "No valid mission available, loitering",
               "name": "mission_not_valid_loiter"
@@ -3270,6 +3220,17 @@
             "3484900": {
               "message": "Returning to launch",
               "name": "commander_rtl"
+            },
+            "3592387": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_IMU_CTRL instead",
+              "name": "ekf2_aid_mask_imu"
             },
             "3623245": {
               "arguments": [
@@ -3350,10 +3311,6 @@
             "439666": {
               "message": "Ignoring mission item, no transfer in progress",
               "name": "mavlink_mission_no_transfer"
-            },
-            "4472241": {
-              "message": "IO config read failed, aborting initialization",
-              "name": "px4io_config_read_failed"
             },
             "4502496": {
               "arguments": [
@@ -3484,10 +3441,6 @@
             "5158211": {
               "message": "No airspeed sensor detected, switching to non-airspeed mode",
               "name": "airspeed_selector_switch"
-            },
-            "5334836": {
-              "message": "Hardware fault: GPS PPS disabled",
-              "name": "pps_capture_pps_rate_exceeded"
             },
             "5371654": {
               "arguments": [
@@ -3679,6 +3632,17 @@
               "message": "Yaw Airmode requires disabling the stick arm gesture",
               "name": "commander_airmode_requires_no_arm_gesture"
             },
+            "7293273": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_EV_CTRL instead",
+              "name": "ekf2_aid_mask_ev"
+            },
             "7714236": {
               "arguments": [
                 {
@@ -3713,6 +3677,17 @@
               "message": "Mission rejected: land start item before RTL item is not possible",
               "name": "navigator_mis_land_before_rtl"
             },
+            "7867944": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_GPS_CTRL</param> is set to {1:.0}.",
+              "message": "GPS enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_gps"
+            },
             "8208988": {
               "arguments": [
                 {
@@ -3722,10 +3697,6 @@
               ],
               "message": "Climb to {1:.1m_v} above home",
               "name": "mission_climb_before_start"
-            },
-            "8275181": {
-              "message": "Transponder Failure",
-              "name": "mxs_xpdr_fail"
             },
             "8280920": {
               "message": "Airspeed estimation invalid",
@@ -3805,6 +3776,17 @@
               "message": "No inputs, aborting RC trim calibration",
               "name": "commander_cal_no_inputs"
             },
+            "8858122": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_BARO_CTRL</param> is set to {1:.0}.",
+              "message": "Baro enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_baro"
+            },
             "8865457": {
               "message": "Geofence: import error",
               "name": "navigator_geofence_import_failed"
@@ -3812,10 +3794,6 @@
             "8894709": {
               "message": "Mission rejected: the landing point must be outside the orbit radius",
               "name": "navigator_mis_land_wp_inside_orbit_radius"
-            },
-            "8912808": {
-              "message": "Failed to communicate with IO, aborting initialization",
-              "name": "px4io_comm_failed"
             },
             "8935528": {
               "message": "Mission manager currently busy, ignoring new waypoint index",
@@ -3856,6 +3834,16 @@
               "message": "Could not set mission closest to position",
               "name": "mission_failed_set_closest"
             },
+            "9370229": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Geofence: maximum altitude above home reached ({1:.0m_v})",
+              "name": "navigator_geofence_max_alt_from_home"
+            },
             "9421773": {
               "arguments": [
                 {
@@ -3874,10 +3862,6 @@
             "9427265": {
               "message": "Mission could not reset jump count",
               "name": "mission_failed_set_jump_count"
-            },
-            "9432105": {
-              "message": "Geofence invalid, doesn't contain current vehicle position",
-              "name": "navigator_geofence_invalid_against_cur_pos"
             },
             "9476947": {
               "message": "Quad-chute triggered due to uncommanded descent detection",
@@ -4574,32 +4558,8 @@
           "22": [
             168034304
           ],
-          "23": [
-            184811520
-          ],
-          "24": [
-            201588736
-          ],
-          "25": [
-            218365952
-          ],
-          "26": [
-            235143168
-          ],
-          "27": [
-            251920384
-          ],
-          "28": [
-            268697600
-          ],
-          "29": [
-            285474816
-          ],
           "3": [
             67371008
-          ],
-          "30": [
-            302252032
           ],
           "4": [
             50593792
