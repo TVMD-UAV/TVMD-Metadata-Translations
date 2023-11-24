@@ -1960,21 +1960,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/10452355/message</name>
-  <message>
-  <source>Takeoff airspeed reached, climbout</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/1047676/message</name>
   <message>
   <source>Enabling transmitting with IRIDIUM mavlink on instance {1} by command</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/10493596/message</name>
-  <message>
-  <source>Airspeed sensor failure detected. Return to launch (RTL) is advised</source>
   </message>
 </context>
 <context>
@@ -2067,19 +2055,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/1119664/message</name>
-  <message>
-  <source>Invalid configuration: FW_AIRSPD_STALL higher FW_AIRSPD_MIN</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/1119664/description</name>
-  <message>
-  <source>- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
-- &lt;param&gt;FW_AIRSPD_STALL&lt;/param&gt;: {2:.1}</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/11290563/message</name>
   <message>
   <source>Kill-switch engaged</source>
@@ -2101,12 +2076,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/11572261/message</name>
   <message>
   <source>Reduce the glide slope, lower the entrance altitude {1} meters, or increase the landing approach distance {2} meters</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/11606074/message</name>
-  <message>
-  <source>Launch detected: enable motors (no motor delay)</source>
   </message>
 </context>
 <context>
@@ -2182,18 +2151,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/122461/message</name>
-  <message>
-  <source>Landing aborted: terrain measurement not found</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/12320347/message</name>
-  <message>
-  <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/12420351/message</name>
   <message>
   <source>Arming denied: switch to manual mode first</source>
@@ -2242,9 +2199,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/12957883/message</name>
+  <name>/components/1/event_groups/default/events/1290073/message</name>
   <message>
-  <source>Start descending</source>
+  <source>IO RC config upload failed, aborting initialization</source>
   </message>
 </context>
 <context>
@@ -2278,12 +2235,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/13471314/message</name>
-  <message>
-  <source>Quad-chute triggered due to loss of altitude during transition</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/13495236/message</name>
   <message>
   <source>Reposition is outside geofence</source>
@@ -2293,12 +2244,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/13568553/message</name>
   <message>
   <source>New mission waypoint sequence out of bounds</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/1369685/message</name>
-  <message>
-  <source>Takeoff on runway</source>
   </message>
 </context>
 <context>
@@ -2329,12 +2274,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/14080694/description</name>
   <message>
   <source>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/1410140/message</name>
-  <message>
-  <source>Quad-chute triggered due to external command</source>
   </message>
 </context>
 <context>
@@ -2386,18 +2325,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/14443523/message</name>
-  <message>
-  <source>Launch detected: enable motors</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/14535820/message</name>
-  <message>
-  <source>Landing aborted: terrain estimate timed out</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/14581325/message</name>
   <message>
   <source>Maximum tilt limit has been constrained to a safe value</source>
@@ -2446,12 +2373,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/1525547/message</name>
-  <message>
-  <source>Landing aborted: unknown criterion</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/15283212/message</name>
   <message>
   <source>Mission download request ignored, already active</source>
@@ -2461,25 +2382,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/15292483/message</name>
   <message>
   <source>GNSS data fusion started</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/15317431/message</name>
-  <message>
-  <source>Invalid configuration: Airspeed max \&lt; 5 m/s or min \&gt; 100 m/s</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/15317431/description</name>
-  <message>
-  <source>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
-- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/15373867/message</name>
-  <message>
-  <source>Launch detected: enablecontrol, waiting {1:.1}s until full throttle</source>
   </message>
 </context>
 <context>
@@ -2519,18 +2421,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/15869512/message</name>
-  <message>
-  <source>Quad-chute triggered due to transition timeout</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/15900704/message</name>
-  <message>
-  <source>Quad-chute triggered due to minimum altitude breach</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/15909593/message</name>
   <message>
   <source>Cruise speed has been constrained by maximum speed</source>
@@ -2540,6 +2430,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/15909593/description</name>
   <message>
   <source>&lt;param&gt;MPC_XY_CRUISE&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/15923029/message</name>
+  <message>
+  <source>IO protocol/firmware mismatch, aborting initialization</source>
   </message>
 </context>
 <context>
@@ -2564,18 +2460,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16105804/message</name>
   <message>
   <source>OpenDroneID system lost</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/16223078/message</name>
-  <message>
-  <source>Landing aborted by operator</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/16347639/message</name>
-  <message>
-  <source>Landing, flaring</source>
   </message>
 </context>
 <context>
@@ -2677,12 +2561,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/2087806/message</name>
-  <message>
-  <source>Orbit radius limit exceeded</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/2225852/message</name>
   <message>
   <source>Use EKF2_OF_CTRL instead</source>
@@ -2761,12 +2639,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/3237806/message</name>
-  <message>
-  <source>Landing, flaring</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/3321936/message</name>
   <message>
   <source>Waypoint index out of bounds (current {1} \&gt;= total {2})</source>
@@ -2815,12 +2687,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/346311/message</name>
-  <message>
-  <source>Launch detection running</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/3484900/message</name>
   <message>
   <source>Returning to launch</source>
@@ -2836,19 +2702,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/3592387/description</name>
   <message>
   <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/3623245/message</name>
-  <message>
-  <source>Invalid configuration: Airspeed max smaller than min</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/3623245/description</name>
-  <message>
-  <source>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
-- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}</source>
   </message>
 </context>
 <context>
@@ -2912,12 +2765,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/4163547/message</name>
-  <message>
-  <source>Start loiter with fixed bank angle</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/4202815/message</name>
   <message>
   <source>Ignoring mission clear command, busy</source>
@@ -2936,23 +2783,15 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/4472241/message</name>
+  <message>
+  <source>IO config read failed, aborting initialization</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/4502496/message</name>
   <message>
   <source>Failsafe activated, triggering {2} in {3} seconds</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/4519150/message</name>
-  <message>
-  <source>Invalid configuration: Airspeed trim out of min or max bounds</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/4519150/description</name>
-  <message>
-  <source>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
-- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}
-- &lt;param&gt;FW_AIRSPD_TRIM&lt;/param&gt;: {3:.1}</source>
   </message>
 </context>
 <context>
@@ -3037,12 +2876,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/51327/message</name>
   <message>
   <source>Emergency battery level, land immediately</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/5158211/message</name>
-  <message>
-  <source>No airspeed sensor detected, switching to non-airspeed mode</source>
   </message>
 </context>
 <context>
@@ -3136,12 +2969,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/6006807/message</name>
-  <message>
-  <source>Quad-chute triggered due to maximum pitch angle exceeded</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/6124520/message</name>
   <message>
   <source>Mission rejected: starts with landing</source>
@@ -3160,12 +2987,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/6363289/message</name>
-  <message>
-  <source>Airspeed estimation valid</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/6415112/message</name>
   <message>
   <source>RC trim calibration completed</source>
@@ -3175,12 +2996,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/6843301/message</name>
   <message>
   <source>Parachute system regained</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/6847604/message</name>
-  <message>
-  <source>Quad-chute triggered due to maximum roll angle exceeded</source>
   </message>
 </context>
 <context>
@@ -3211,12 +3026,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/697858/message</name>
   <message>
   <source>RC trim calibration: failed to set parameters</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/7028282/message</name>
-  <message>
-  <source>Airspeed sensor failure detected. Check connection and reboot</source>
   </message>
 </context>
 <context>
@@ -3288,18 +3097,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/7791755/message</name>
-  <message>
-  <source>Airspeed sensor healthy, start using again</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/7791755/description</name>
-  <message>
-  <source>Previously selected sensor index: {1}, current sensor index: {2}.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/7803396/message</name>
   <message>
   <source>Mission finished, landed</source>
@@ -3327,12 +3124,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/8208988/message</name>
   <message>
   <source>Climb to {1:.1m_v} above home</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/8280920/message</name>
-  <message>
-  <source>Airspeed estimation invalid</source>
   </message>
 </context>
 <context>
@@ -3432,6 +3223,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/8912808/message</name>
+  <message>
+  <source>Failed to communicate with IO, aborting initialization</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/8935528/message</name>
   <message>
   <source>Mission manager currently busy, ignoring new waypoint index</source>
@@ -3471,12 +3268,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/9346577/message</name>
-  <message>
-  <source>Reached clearance altitude</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/9351472/message</name>
   <message>
   <source>RTL: unsupported MAV_FRAME ({1})</source>
@@ -3510,12 +3301,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9427265/message</name>
   <message>
   <source>Mission could not reset jump count</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/9476947/message</name>
-  <message>
-  <source>Quad-chute triggered due to uncommanded descent detection</source>
   </message>
 </context>
 <context>

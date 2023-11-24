@@ -2336,10 +2336,6 @@
               "message": "Traffic alert",
               "name": "navigator_traffic"
             },
-            "10452355": {
-              "message": "Takeoff airspeed reached, climbout",
-              "name": "runway_takeoff_reached_airspeed"
-            },
             "1047676": {
               "arguments": [
                 {
@@ -2349,10 +2345,6 @@
               ],
               "message": "Enabling transmitting with IRIDIUM mavlink on instance {1} by command",
               "name": "mavlink_iridium_enable_cmd"
-            },
-            "10493596": {
-              "message": "Airspeed sensor failure detected. Return to launch (RTL) is advised",
-              "name": "airspeed_selector_sensor_failure"
             },
             "10503063": {
               "arguments": [
@@ -2444,21 +2436,6 @@
               "message": "Connection to mission computer lost",
               "name": "commander_mission_comp_lost"
             },
-            "1119664": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                }
-              ],
-              "description": "- <param>FW_AIRSPD_MIN</param>: {1:.1}\n- <param>FW_AIRSPD_STALL</param>: {2:.1}",
-              "message": "Invalid configuration: FW_AIRSPD_STALL higher FW_AIRSPD_MIN",
-              "name": "fixedwing_position_control_conf_invalid_stall"
-            },
             "11290563": {
               "message": "Kill-switch engaged",
               "name": "commander_kill_sw_engaged"
@@ -2490,10 +2467,6 @@
               ],
               "message": "Reduce the glide slope, lower the entrance altitude {1} meters, or increase the landing approach distance {2} meters",
               "name": "navigator_mis_correct_glide_slope"
-            },
-            "11606074": {
-              "message": "Launch detected: enable motors (no motor delay)",
-              "name": "launch_detection_no_motor_delay"
             },
             "11664376": {
               "arguments": [
@@ -2609,14 +2582,6 @@
               "message": "Mission rejected: Takeoff or Landing item missing",
               "name": "navigator_mis_takeoff_or_land_missing"
             },
-            "122461": {
-              "message": "Landing aborted: terrain measurement not found",
-              "name": "fixedwing_position_control_landing_abort_status_terrain_not_found"
-            },
-            "12320347": {
-              "message": "Primary airspeed index bigger than number connected sensors, taking last sensor",
-              "name": "airspeed_selector_prim_too_high"
-            },
             "12420351": {
               "message": "Arming denied: switch to manual mode first",
               "name": "commander_arm_denied_not_manual"
@@ -2660,9 +2625,9 @@
               "message": "{1} sensor #{2} failure: {3}",
               "name": "sensor_failover"
             },
-            "12957883": {
-              "message": "Start descending",
-              "name": "fixedwing_position_control_descend"
+            "1290073": {
+              "message": "IO RC config upload failed, aborting initialization",
+              "name": "px4io_io_rc_config_upload_failed"
             },
             "13277401": {
               "arguments": [
@@ -2701,10 +2666,6 @@
               "message": "EV vertical position enabled by EKF2_HGT_REF",
               "name": "ekf2_hgt_ref_ev"
             },
-            "13471314": {
-              "message": "Quad-chute triggered due to loss of altitude during transition",
-              "name": "vtol_att_ctrl_quadchute_trans_alt_err"
-            },
             "13495236": {
               "message": "Reposition is outside geofence",
               "name": "navigator_reposition_outside_geofence"
@@ -2712,10 +2673,6 @@
             "13568553": {
               "message": "New mission waypoint sequence out of bounds",
               "name": "mavlink_mission_seq_out_of_bounds"
-            },
-            "1369685": {
-              "message": "Takeoff on runway",
-              "name": "fixedwing_position_control_takeoff"
             },
             "13704694": {
               "arguments": [
@@ -2757,10 +2714,6 @@
               "description": "<param>MPC_Z_V_AUTO_DN</param> is set to {1:.0}.",
               "message": "Descent speed has been constrained by max speed",
               "name": "mc_pos_ctrl_down_vel_set"
-            },
-            "1410140": {
-              "message": "Quad-chute triggered due to external command",
-              "name": "vtol_att_ctrl_quadchute_ext_cmd"
             },
             "14153224": {
               "arguments": [
@@ -2808,14 +2761,6 @@
               ],
               "message": "Geofence: maximum distance from home reached ({1:.0m})",
               "name": "navigator_geofence_max_dist_from_home"
-            },
-            "14443523": {
-              "message": "Launch detected: enable motors",
-              "name": "launch_detection_enable_motors"
-            },
-            "14535820": {
-              "message": "Landing aborted: terrain estimate timed out",
-              "name": "fixedwing_position_control_landing_abort_status_terrain_timeout"
             },
             "14581325": {
               "arguments": [
@@ -2872,10 +2817,6 @@
               "message": "Disabling transmitting with IRIDIUM mavlink on instance {1}",
               "name": "mavlink_iridium_disable"
             },
-            "1525547": {
-              "message": "Landing aborted: unknown criterion",
-              "name": "fixedwing_position_control_landing_abort_status_unknown_criterion"
-            },
             "15283212": {
               "message": "Mission download request ignored, already active",
               "name": "mavlink_mission_req_ignored"
@@ -2883,31 +2824,6 @@
             "15292483": {
               "message": "GNSS data fusion started",
               "name": "check_estimator_gnss_fusion_started"
-            },
-            "15317431": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                }
-              ],
-              "description": "- <param>FW_AIRSPD_MAX</param>: {1:.1}\n- <param>FW_AIRSPD_MIN</param>: {2:.1}",
-              "message": "Invalid configuration: Airspeed max \\< 5 m/s or min \\> 100 m/s",
-              "name": "fixedwing_position_control_conf_invalid_airspeed_bounds"
-            },
-            "15373867": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "Launch detected: enablecontrol, waiting {1:.1}s until full throttle",
-              "name": "launch_detection_wait_for_throttle"
             },
             "15456613": {
               "arguments": [
@@ -2942,14 +2858,6 @@
               "message": "parameter_rc_channel_index out of bounds",
               "name": "mavlink_param_rc_chan_out_of_bounds"
             },
-            "15869512": {
-              "message": "Quad-chute triggered due to transition timeout",
-              "name": "vtol_att_ctrl_quadchute_tout"
-            },
-            "15900704": {
-              "message": "Quad-chute triggered due to minimum altitude breach",
-              "name": "vtol_att_ctrl_quadchute_min_alt"
-            },
             "15909593": {
               "arguments": [
                 {
@@ -2960,6 +2868,10 @@
               "description": "<param>MPC_XY_CRUISE</param> is set to {1:.0}.",
               "message": "Cruise speed has been constrained by maximum speed",
               "name": "mc_pos_ctrl_cruise_set"
+            },
+            "15923029": {
+              "message": "IO protocol/firmware mismatch, aborting initialization",
+              "name": "px4io_proto_fw_mismatch"
             },
             "16017271": {
               "arguments": [
@@ -2985,14 +2897,6 @@
             "16105804": {
               "message": "OpenDroneID system lost",
               "name": "commander_open_drone_id_lost"
-            },
-            "16223078": {
-              "message": "Landing aborted by operator",
-              "name": "fixedwing_position_control_landing_abort_status_operator_abort"
-            },
-            "16347639": {
-              "message": "Landing, flaring",
-              "name": "fixedwing_position_control_landing_circle_flaring"
             },
             "16440365": {
               "arguments": [
@@ -3075,10 +2979,6 @@
               "message": "Arming denied: calibrating",
               "name": "commander_arm_denied_calibrating"
             },
-            "2087806": {
-              "message": "Orbit radius limit exceeded",
-              "name": "orbit_radius_exceeded"
-            },
             "2225852": {
               "arguments": [
                 {
@@ -3158,10 +3058,6 @@
               "message": "Mission rejected: the approach waypoint must be above the landing point",
               "name": "navigator_mis_approach_wp_below_land"
             },
-            "3237806": {
-              "message": "Landing, flaring",
-              "name": "fixedwing_position_control_landing_flaring"
-            },
             "3321936": {
               "arguments": [
                 {
@@ -3213,10 +3109,6 @@
               "message": "Geofence requires a valid home position",
               "name": "navigator_mis_geofence_no_home2"
             },
-            "346311": {
-              "message": "Launch detection running",
-              "name": "launch_detection_running_info"
-            },
             "3484900": {
               "message": "Returning to launch",
               "name": "commander_rtl"
@@ -3231,21 +3123,6 @@
               "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
               "message": "Use EKF2_IMU_CTRL instead",
               "name": "ekf2_aid_mask_imu"
-            },
-            "3623245": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                }
-              ],
-              "description": "- <param>FW_AIRSPD_MAX</param>: {1:.1}\n- <param>FW_AIRSPD_MIN</param>: {2:.1}",
-              "message": "Invalid configuration: Airspeed max smaller than min",
-              "name": "fixedwing_position_control_conf_invalid_airspeed"
             },
             "3645914": {
               "message": "High latency data link lost",
@@ -3296,10 +3173,6 @@
               "message": "Rejecting waypoint command, component or system ID mismatch",
               "name": "mavlink_mission_partner_id_mismatch"
             },
-            "4163547": {
-              "message": "Start loiter with fixed bank angle",
-              "name": "fixedwing_position_control_fb_loiter"
-            },
             "4202815": {
               "message": "Ignoring mission clear command, busy",
               "name": "mavlink_mission_ignore_clear"
@@ -3311,6 +3184,10 @@
             "439666": {
               "message": "Ignoring mission item, no transfer in progress",
               "name": "mavlink_mission_no_transfer"
+            },
+            "4472241": {
+              "message": "IO config read failed, aborting initialization",
+              "name": "px4io_config_read_failed"
             },
             "4502496": {
               "arguments": [
@@ -3330,25 +3207,6 @@
               "message": "Failsafe activated, triggering {2} in {3} seconds",
               "name": "commander_failsafe_enter_generic_hold",
               "type": "append_health_and_arming_messages"
-            },
-            "4519150": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                },
-                {
-                  "name": "arg2",
-                  "type": "float"
-                }
-              ],
-              "description": "- <param>FW_AIRSPD_MAX</param>: {1:.1}\n- <param>FW_AIRSPD_MIN</param>: {2:.1}\n- <param>FW_AIRSPD_TRIM</param>: {3:.1}",
-              "message": "Invalid configuration: Airspeed trim out of min or max bounds",
-              "name": "fixedwing_position_control_conf_invalid_trim_bounds"
             },
             "4535132": {
               "arguments": [
@@ -3437,10 +3295,6 @@
             "51327": {
               "message": "Emergency battery level, land immediately",
               "name": "commander_failsafe_enter_crit_low_bat_warn"
-            },
-            "5158211": {
-              "message": "No airspeed sensor detected, switching to non-airspeed mode",
-              "name": "airspeed_selector_switch"
             },
             "5371654": {
               "arguments": [
@@ -3531,10 +3385,6 @@
               "message": "Received unknown mission type, abort",
               "name": "mavlink_mission_recv_unknown_mis_type"
             },
-            "6006807": {
-              "message": "Quad-chute triggered due to maximum pitch angle exceeded",
-              "name": "vtol_att_ctrl_quadchute_max_pitch"
-            },
             "6124520": {
               "message": "Mission rejected: starts with landing",
               "name": "navigator_mis_starts_w_landing"
@@ -3547,10 +3397,6 @@
               "message": "Calibration: Restoring RC input",
               "name": "commander_calib_rc_on"
             },
-            "6363289": {
-              "message": "Airspeed estimation valid",
-              "name": "airspeed_selector_estimation_valid"
-            },
             "6415112": {
               "message": "RC trim calibration completed",
               "name": "commander_cal_trim_done"
@@ -3558,10 +3404,6 @@
             "6843301": {
               "message": "Parachute system regained",
               "name": "commander_parachute_regained"
-            },
-            "6847604": {
-              "message": "Quad-chute triggered due to maximum roll angle exceeded",
-              "name": "vtol_att_ctrl_quadchute_max_roll"
             },
             "6880628": {
               "arguments": [
@@ -3585,10 +3427,6 @@
             "697858": {
               "message": "RC trim calibration: failed to set parameters",
               "name": "commander_cal_trim_param_set_failed"
-            },
-            "7028282": {
-              "message": "Airspeed sensor failure detected. Check connection and reboot",
-              "name": "airspeed_selector_sensor_failure_disarmed"
             },
             "7067274": {
               "message": "Mission start denied! No valid mission",
@@ -3654,21 +3492,6 @@
               "message": "Approaching max flight time (system will RTL in {1} seconds)",
               "name": "commander_max_flight_time_warning_seconds"
             },
-            "7791755": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Previously selected sensor index: {1}, current sensor index: {2}.",
-              "message": "Airspeed sensor healthy, start using again",
-              "name": "airspeed_selector_estimation_regain"
-            },
             "7803396": {
               "message": "Mission finished, landed",
               "name": "mission_finished"
@@ -3697,10 +3520,6 @@
               ],
               "message": "Climb to {1:.1m_v} above home",
               "name": "mission_climb_before_start"
-            },
-            "8280920": {
-              "message": "Airspeed estimation invalid",
-              "name": "airspeed_selector_estimation_invalid"
             },
             "8310204": {
               "message": "Landing using precision landing",
@@ -3795,6 +3614,10 @@
               "message": "Mission rejected: the landing point must be outside the orbit radius",
               "name": "navigator_mis_land_wp_inside_orbit_radius"
             },
+            "8912808": {
+              "message": "Failed to communicate with IO, aborting initialization",
+              "name": "px4io_comm_failed"
+            },
             "8935528": {
               "message": "Mission manager currently busy, ignoring new waypoint index",
               "name": "mavlink_mission_state_busy"
@@ -3815,10 +3638,6 @@
               "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
               "message": "Estimated position error is approaching the failsafe threshold",
               "name": "check_estimator_position_failure_imminent"
-            },
-            "9346577": {
-              "message": "Reached clearance altitude",
-              "name": "runway_takeoff_reached_clearance_altitude"
             },
             "9351472": {
               "arguments": [
@@ -3862,10 +3681,6 @@
             "9427265": {
               "message": "Mission could not reset jump count",
               "name": "mission_failed_set_jump_count"
-            },
-            "9476947": {
-              "message": "Quad-chute triggered due to uncommanded descent detection",
-              "name": "vtol_att_ctrl_quadchute_alt_loss"
             },
             "9489139": {
               "arguments": [
