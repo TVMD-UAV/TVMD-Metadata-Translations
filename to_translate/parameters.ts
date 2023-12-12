@@ -16977,432 +16977,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_ACRO_X_MAX/shortDesc</name>
-  <message>
-  <source>Acro body roll max rate setpoint</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/shortDesc</name>
-  <message>
-  <source>Enable yaw rate controller in Acro</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/longDesc</name>
-  <message>
-  <source>If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_Y_MAX/shortDesc</name>
-  <message>
-  <source>Acro body pitch max rate setpoint</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_Z_MAX/shortDesc</name>
-  <message>
-  <source>Acro body yaw max rate setpoint</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_MODE/shortDesc</name>
-  <message>
-  <source>Airspeed mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_MODE/longDesc</name>
-  <message>
-  <source>On vehicles without airspeed sensor this parameter can be used to enable flying without an airspeed reading</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_MODE/values/0/description</name>
-  <message>
-  <source>Use airspeed in controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_MODE/values/1/description</name>
-  <message>
-  <source>Do not use airspeed in controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_SCALE_EN/shortDesc</name>
-  <message>
-  <source>Enable airspeed scaling</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_SCALE_EN/longDesc</name>
-  <message>
-  <source>This enables a logic that automatically adjusts the output of the rate controller to take into account the real torque produced by an aerodynamic control surface given the current deviation from the trim airspeed (FW_AIRSPD_TRIM). Enable when using aerodynamic control surfaces (e.g.: plane) Disable when using rotor wings (e.g.: autogyro)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_SCALE_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ARSP_SCALE_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_BAT_SCALE_EN/shortDesc</name>
-  <message>
-  <source>Enable throttle scale by battery level</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_BAT_SCALE_EN/longDesc</name>
-  <message>
-  <source>This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_BAT_SCALE_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_BAT_SCALE_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_P_VMAX/shortDesc</name>
-  <message>
-  <source>Pitch trim increment at maximum airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_P_VMAX/longDesc</name>
-  <message>
-  <source>This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MAX.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_P_VMIN/shortDesc</name>
-  <message>
-  <source>Pitch trim increment at minimum airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_P_VMIN/longDesc</name>
-  <message>
-  <source>This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MIN.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_R_VMAX/shortDesc</name>
-  <message>
-  <source>Roll trim increment at maximum airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_R_VMAX/longDesc</name>
-  <message>
-  <source>This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MAX.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_R_VMIN/shortDesc</name>
-  <message>
-  <source>Roll trim increment at minimum airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_R_VMIN/longDesc</name>
-  <message>
-  <source>This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MIN.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_Y_VMAX/shortDesc</name>
-  <message>
-  <source>Yaw trim increment at maximum airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_Y_VMAX/longDesc</name>
-  <message>
-  <source>This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MAX.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_Y_VMIN/shortDesc</name>
-  <message>
-  <source>Yaw trim increment at minimum airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_DTRIM_Y_VMIN/longDesc</name>
-  <message>
-  <source>This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MIN.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_MAN_P_SC/shortDesc</name>
-  <message>
-  <source>Manual pitch scale</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_MAN_P_SC/longDesc</name>
-  <message>
-  <source>Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_MAN_R_SC/shortDesc</name>
-  <message>
-  <source>Manual roll scale</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_MAN_R_SC/longDesc</name>
-  <message>
-  <source>Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_MAN_Y_SC/shortDesc</name>
-  <message>
-  <source>Manual yaw scale</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_MAN_Y_SC/longDesc</name>
-  <message>
-  <source>Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_D/shortDesc</name>
-  <message>
-  <source>Pitch rate derivative gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_D/longDesc</name>
-  <message>
-  <source>Pitch rate differential gain.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_FF/shortDesc</name>
-  <message>
-  <source>Pitch rate feed forward</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_FF/longDesc</name>
-  <message>
-  <source>Direct feed forward from rate setpoint to control surface output</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_I/shortDesc</name>
-  <message>
-  <source>Pitch rate integrator gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_IMAX/shortDesc</name>
-  <message>
-  <source>Pitch rate integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_P/shortDesc</name>
-  <message>
-  <source>Pitch rate proportional gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RLL_TO_YAW_FF/shortDesc</name>
-  <message>
-  <source>Roll control to yaw control feedforward gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RLL_TO_YAW_FF/longDesc</name>
-  <message>
-  <source>This gain can be used to counteract the "adverse yaw" effect for fixed wings. When the plane enters a roll it will tend to yaw the nose out of the turn. This gain enables the use of a yaw actuator to counteract this effect.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_D/shortDesc</name>
-  <message>
-  <source>Roll rate derivative gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_FF/shortDesc</name>
-  <message>
-  <source>Roll rate feed forward</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_FF/longDesc</name>
-  <message>
-  <source>Direct feed forward from rate setpoint to control surface output.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_I/shortDesc</name>
-  <message>
-  <source>Roll rate integrator gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_IMAX/shortDesc</name>
-  <message>
-  <source>Roll integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_P/shortDesc</name>
-  <message>
-  <source>Roll rate proportional gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_SPOILERS_MAN/shortDesc</name>
-  <message>
-  <source>Spoiler input in manual flight</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_SPOILERS_MAN/longDesc</name>
-  <message>
-  <source>Chose source for manual setting of spoilers in manual flight modes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_SPOILERS_MAN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_SPOILERS_MAN/values/1/description</name>
-  <message>
-  <source>Flaps channel</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_SPOILERS_MAN/values/2/description</name>
-  <message>
-  <source>Aux1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_YR_D/shortDesc</name>
-  <message>
-  <source>Yaw rate derivative gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_YR_FF/shortDesc</name>
-  <message>
-  <source>Yaw rate feed forward</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_YR_FF/longDesc</name>
-  <message>
-  <source>Direct feed forward from rate setpoint to control surface output</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_YR_I/shortDesc</name>
-  <message>
-  <source>Yaw rate integrator gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_YR_IMAX/shortDesc</name>
-  <message>
-  <source>Yaw rate integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_YR_P/shortDesc</name>
-  <message>
-  <source>Yaw rate proportional gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MAX/shortDesc</name>
-  <message>
-  <source>Maximum Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
-  <message>
-  <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MIN/shortDesc</name>
-  <message>
-  <source>Minimum Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
-  <message>
-  <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Should be set (with some margin) above the vehicle stall speed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adapated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_STALL/shortDesc</name>
-  <message>
-  <source>Stall Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_STALL/longDesc</name>
-  <message>
-  <source>The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_TRIM/shortDesc</name>
-  <message>
-  <source>Trim (Cruise) Airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_TRIM/longDesc</name>
-  <message>
-  <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FD_ACT_EN/shortDesc</name>
   <message>
   <source>Enable Actuator Failure check</source>
@@ -17580,510 +17154,6 @@
   <name>/parameters/FD_IMB_PROP_THR/longDesc</name>
   <message>
   <source>Value at which the imbalanced propeller metric (based on horizontal and vertical acceleration variance) triggers a failure Setting this value to 0 disables the feature.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_CONFIG/shortDesc</name>
-  <message>
-  <source>Serial Configuration for Main GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_CONFIG/longDesc</name>
-  <message>
-  <source>Configure on which serial port to run Main GPS.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_CONFIG/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_CONFIG/values/101/description</name>
-  <message>
-  <source>TELEM 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_CONFIG/values/102/description</name>
-  <message>
-  <source>TELEM 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_CONFIG/values/104/description</name>
-  <message>
-  <source>TELEM/SERIAL 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_CONFIG/values/201/description</name>
-  <message>
-  <source>GPS 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_GNSS/shortDesc</name>
-  <message>
-  <source>GNSS Systems for Primary GPS (integer bitmask)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_GNSS/longDesc</name>
-  <message>
-  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_GNSS/bitmask/0/description</name>
-  <message>
-  <source>GPS (with QZSS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_GNSS/bitmask/1/description</name>
-  <message>
-  <source>SBAS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_GNSS/bitmask/2/description</name>
-  <message>
-  <source>Galileo</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_GNSS/bitmask/3/description</name>
-  <message>
-  <source>BeiDou</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_GNSS/bitmask/4/description</name>
-  <message>
-  <source>GLONASS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/shortDesc</name>
-  <message>
-  <source>Protocol for Main GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/longDesc</name>
-  <message>
-  <source>Select the GPS protocol over serial. Auto-detection will probe all protocols, and thus is a bit slower.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/0/description</name>
-  <message>
-  <source>Auto detect</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/1/description</name>
-  <message>
-  <source>u-blox</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/2/description</name>
-  <message>
-  <source>MTK</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/3/description</name>
-  <message>
-  <source>Ashtech / Trimble</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/4/description</name>
-  <message>
-  <source>Emlid Reach</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/5/description</name>
-  <message>
-  <source>Femtomes</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/6/description</name>
-  <message>
-  <source>NMEA (generic)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_1_PROTOCOL/values/7/description</name>
-  <message>
-  <source>Septentrio (SBF)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_CONFIG/shortDesc</name>
-  <message>
-  <source>Serial Configuration for Secondary GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_CONFIG/longDesc</name>
-  <message>
-  <source>Configure on which serial port to run Secondary GPS.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_CONFIG/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_CONFIG/values/101/description</name>
-  <message>
-  <source>TELEM 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_CONFIG/values/102/description</name>
-  <message>
-  <source>TELEM 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_CONFIG/values/104/description</name>
-  <message>
-  <source>TELEM/SERIAL 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_CONFIG/values/201/description</name>
-  <message>
-  <source>GPS 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_GNSS/shortDesc</name>
-  <message>
-  <source>GNSS Systems for Secondary GPS (integer bitmask)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_GNSS/longDesc</name>
-  <message>
-  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_GNSS/bitmask/0/description</name>
-  <message>
-  <source>GPS (with QZSS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_GNSS/bitmask/1/description</name>
-  <message>
-  <source>SBAS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_GNSS/bitmask/2/description</name>
-  <message>
-  <source>Galileo</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_GNSS/bitmask/3/description</name>
-  <message>
-  <source>BeiDou</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_GNSS/bitmask/4/description</name>
-  <message>
-  <source>GLONASS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/shortDesc</name>
-  <message>
-  <source>Protocol for Secondary GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/longDesc</name>
-  <message>
-  <source>Select the GPS protocol over serial. Auto-detection will probe all protocols, and thus is a bit slower.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/values/0/description</name>
-  <message>
-  <source>Auto detect</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/values/1/description</name>
-  <message>
-  <source>u-blox</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/values/2/description</name>
-  <message>
-  <source>MTK</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/values/3/description</name>
-  <message>
-  <source>Ashtech / Trimble</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/values/4/description</name>
-  <message>
-  <source>Emlid Reach</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/values/5/description</name>
-  <message>
-  <source>Femtomes</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_2_PROTOCOL/values/6/description</name>
-  <message>
-  <source>NMEA (generic)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_DUMP_COMM/shortDesc</name>
-  <message>
-  <source>Log GPS communication data</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_DUMP_COMM/longDesc</name>
-  <message>
-  <source>If this is set to 1, all GPS communication data will be published via uORB, and written to the log file as gps_dump message. If this is set to 2, the main GPS is configured to output RTCM data, which is then logged as gps_dump and can be used for PPK.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_DUMP_COMM/values/0/description</name>
-  <message>
-  <source>Disable</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_DUMP_COMM/values/1/description</name>
-  <message>
-  <source>Full communication</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_DUMP_COMM/values/2/description</name>
-  <message>
-  <source>RTCM output (PPK)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_PITCH_OFFSET/shortDesc</name>
-  <message>
-  <source>Pitch offset for dual antenna GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_PITCH_OFFSET/longDesc</name>
-  <message>
-  <source>Vertical offsets can be compensated for by adjusting the Pitch offset (Septentrio). Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis. This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame. Since pitch is defined as the right-handed rotation about the vehicle Y axis, a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_SAT_INFO/shortDesc</name>
-  <message>
-  <source>Enable sat info (if available)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_SAT_INFO/longDesc</name>
-  <message>
-  <source>Enable publication of satellite info (ORB_ID(satellite_info)) if possible. Not available on MTK.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_SAT_INFO/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_SAT_INFO/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_BAUD2/shortDesc</name>
-  <message>
-  <source>u-blox F9P UART2 Baudrate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_BAUD2/longDesc</name>
-  <message>
-  <source>Select a baudrate for the F9P's UART2 port. In GPS_UBX_MODE 1, 2, and 3, the F9P's UART2 port is configured to send/receive RTCM corrections. Set this to 57600 if you want to attach a telemetry radio on UART2.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_CFG_INTF/shortDesc</name>
-  <message>
-  <source>u-blox protocol configuration for interfaces</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_CFG_INTF/bitmask/0/description</name>
-  <message>
-  <source>Enable I2C input protocol UBX</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_CFG_INTF/bitmask/1/description</name>
-  <message>
-  <source>Enable I2C input protocol NMEA</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_CFG_INTF/bitmask/2/description</name>
-  <message>
-  <source>Enable I2C input protocol RTCM3X</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_CFG_INTF/bitmask/3/description</name>
-  <message>
-  <source>Enable I2C output protocol UBX</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_CFG_INTF/bitmask/4/description</name>
-  <message>
-  <source>Enable I2C output protocol NMEA</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_CFG_INTF/bitmask/5/description</name>
-  <message>
-  <source>Enable I2C output protocol RTCM3X</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_DYNMODEL/shortDesc</name>
-  <message>
-  <source>u-blox GPS dynamic platform model</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_DYNMODEL/longDesc</name>
-  <message>
-  <source>u-blox receivers support different dynamic platform models to adjust the navigation engine to the expected application environment.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_DYNMODEL/values/2/description</name>
-  <message>
-  <source>stationary</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_DYNMODEL/values/4/description</name>
-  <message>
-  <source>automotive</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_DYNMODEL/values/6/description</name>
-  <message>
-  <source>airborne with &lt;1g acceleration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_DYNMODEL/values/7/description</name>
-  <message>
-  <source>airborne with &lt;2g acceleration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_DYNMODEL/values/8/description</name>
-  <message>
-  <source>airborne with &lt;4g acceleration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/shortDesc</name>
-  <message>
-  <source>u-blox GPS Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/longDesc</name>
-  <message>
-  <source>Select the u-blox configuration setup. Most setups will use the default, including RTK and dual GPS without heading. If rover has RTCM corrections from a static base (or other static correction source) coming in on UART2, then select Mode 5. The Heading mode requires 2 F9P devices to be attached. The main GPS will act as rover and output heading information, whereas the secondary will act as moving base. Modes 1 and 2 require each F9P UART1 to be connected to the Autopilot. In addition, UART2 on the F9P units are connected to each other. Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required. RTK is still possible with this setup.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/values/0/description</name>
-  <message>
-  <source>Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/values/1/description</name>
-  <message>
-  <source>Heading (Rover With Moving Base UART1 Connected To Autopilot, UART2 Connected To Moving Base)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/values/2/description</name>
-  <message>
-  <source>Moving Base (UART1 Connected To Autopilot, UART2 Connected To Rover)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/values/3/description</name>
-  <message>
-  <source>Heading (Rover With Moving Base UART1 Connected to Autopilot Or Can Node At 921600)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/values/4/description</name>
-  <message>
-  <source>Moving Base (Moving Base UART1 Connected to Autopilot Or Can Node At 921600)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_UBX_MODE/values/5/description</name>
-  <message>
-  <source>Rover with Static Base on UART2 (similar to Default, except coming in on UART2)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_YAW_OFFSET/shortDesc</name>
-  <message>
-  <source>Heading/Yaw offset for dual antenna GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_YAW_OFFSET/longDesc</name>
-  <message>
-  <source>Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the rover (or Unicore primary) antenna is in front. The offset angle increases clockwise. Set this to 90 if the rover (or Unicore primary) antenna is placed on the right side of the vehicle and the moving base antenna is on the left side. (Note: the Unicore primary antenna is the one connected on the right as seen from the top).</source>
   </message>
 </context>
 <context>
@@ -25005,90 +24075,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/MC_ACRO_EXPO/shortDesc</name>
-  <message>
-  <source>Acro mode roll, pitch expo factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_EXPO/longDesc</name>
-  <message>
-  <source>Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_EXPO_Y/shortDesc</name>
-  <message>
-  <source>Acro mode yaw expo factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_EXPO_Y/longDesc</name>
-  <message>
-  <source>Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_P_MAX/shortDesc</name>
-  <message>
-  <source>Acro mode maximum pitch rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_P_MAX/longDesc</name>
-  <message>
-  <source>Full stick deflection leads to this rate.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_R_MAX/shortDesc</name>
-  <message>
-  <source>Acro mode maximum roll rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_R_MAX/longDesc</name>
-  <message>
-  <source>Full stick deflection leads to this rate.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_SUPEXPO/shortDesc</name>
-  <message>
-  <source>Acro mode roll, pitch super expo factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_SUPEXPO/longDesc</name>
-  <message>
-  <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_SUPEXPOY/shortDesc</name>
-  <message>
-  <source>Acro mode yaw super expo factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_SUPEXPOY/longDesc</name>
-  <message>
-  <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_Y_MAX/shortDesc</name>
-  <message>
-  <source>Acro mode maximum yaw rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ACRO_Y_MAX/longDesc</name>
-  <message>
-  <source>Full stick deflection leads to this rate.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/MC_PITCHRATE_MAX/shortDesc</name>
   <message>
   <source>Max pitch rate</source>
@@ -26001,243 +24987,99 @@
   </message>
 </context>
 <context>
-  <name>/parameters/MC_BAT_SCALE_EN/shortDesc</name>
+  <name>/parameters/PFA_MAX_TOR/shortDesc</name>
   <message>
-  <source>Battery power level scaler</source>
+  <source>Maximum torque of the vechicle in Nm</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_BAT_SCALE_EN/longDesc</name>
+  <name>/parameters/VEH_AGENT_IXX/shortDesc</name>
   <message>
-  <source>This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery. The copter should constantly behave as if it was fully charged with reduced max acceleration at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery, it will still be 0.5 at 60% battery.</source>
+  <source>Inertia matrix of the vechicle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_BAT_SCALE_EN/values/0/description</name>
+  <name>/parameters/VEH_AGENT_IYY/shortDesc</name>
   <message>
-  <source>Disabled</source>
+  <source>Inertia matrix of the vechicle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_BAT_SCALE_EN/values/1/description</name>
+  <name>/parameters/VEH_AGENT_IZZ/shortDesc</name>
   <message>
-  <source>Enabled</source>
+  <source>Inertia matrix of the vechicle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_D/shortDesc</name>
+  <name>/parameters/VEH_AGENT_MASS/shortDesc</name>
   <message>
-  <source>Pitch rate D gain</source>
+  <source>Mass of a single agent in Kg</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_D/longDesc</name>
+  <name>/parameters/VEH_NAV_IXX/shortDesc</name>
   <message>
-  <source>Pitch rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
+  <source>Inertia matrix of the vechicle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_FF/shortDesc</name>
+  <name>/parameters/VEH_NAV_IYY/shortDesc</name>
   <message>
-  <source>Pitch rate feedforward</source>
+  <source>Inertia matrix of the vechicle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_FF/longDesc</name>
+  <name>/parameters/VEH_NAV_IZZ/shortDesc</name>
   <message>
-  <source>Improves tracking performance.</source>
+  <source>Inertia matrix of the vechicle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_I/shortDesc</name>
+  <name>/parameters/PFA_GAIN_X_D/shortDesc</name>
   <message>
-  <source>Pitch rate I gain</source>
+  <source>Gain of D controller X</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_I/longDesc</name>
+  <name>/parameters/PFA_GAIN_X_P/shortDesc</name>
   <message>
-  <source>Pitch rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</source>
+  <source>Gain of P controller X</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_K/shortDesc</name>
+  <name>/parameters/PFA_GAIN_Y_D/shortDesc</name>
   <message>
-  <source>Pitch rate controller gain</source>
+  <source>Gain of D controller Y</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_K/longDesc</name>
+  <name>/parameters/PFA_GAIN_Y_P/shortDesc</name>
   <message>
-  <source>Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_PITCHRATE_K * (MC_PITCHRATE_P * error + MC_PITCHRATE_I * error_integral + MC_PITCHRATE_D * error_derivative) Set MC_PITCHRATE_P=1 to implement a PID in the ideal form. Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
+  <source>Gain of P controller Y</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_P/shortDesc</name>
+  <name>/parameters/PFA_GAIN_Z_D/shortDesc</name>
   <message>
-  <source>Pitch rate P gain</source>
+  <source>Gain of D controller Z</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PITCHRATE_P/longDesc</name>
+  <name>/parameters/PFA_GAIN_Z_P/shortDesc</name>
   <message>
-  <source>Pitch rate proportional gain, i.e. control output for angular speed error 1 rad/s.</source>
+  <source>Gain of P controller Z</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PR_INT_LIM/shortDesc</name>
+  <name>/parameters/PFA_MAX_THR/shortDesc</name>
   <message>
-  <source>Pitch rate integrator limit</source>
+  <source>Maximum thrust of the vechicle in Newton</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MC_PR_INT_LIM/longDesc</name>
+  <name>/parameters/PFA_VEH_MASS/shortDesc</name>
   <message>
-  <source>Pitch rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large pitch moment trim changes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_D/shortDesc</name>
-  <message>
-  <source>Roll rate D gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_D/longDesc</name>
-  <message>
-  <source>Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_FF/shortDesc</name>
-  <message>
-  <source>Roll rate feedforward</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_FF/longDesc</name>
-  <message>
-  <source>Improves tracking performance.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_I/shortDesc</name>
-  <message>
-  <source>Roll rate I gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_I/longDesc</name>
-  <message>
-  <source>Roll rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_K/shortDesc</name>
-  <message>
-  <source>Roll rate controller gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_K/longDesc</name>
-  <message>
-  <source>Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_ROLLRATE_K * (MC_ROLLRATE_P * error + MC_ROLLRATE_I * error_integral + MC_ROLLRATE_D * error_derivative) Set MC_ROLLRATE_P=1 to implement a PID in the ideal form. Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_P/shortDesc</name>
-  <message>
-  <source>Roll rate P gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_ROLLRATE_P/longDesc</name>
-  <message>
-  <source>Roll rate proportional gain, i.e. control output for angular speed error 1 rad/s.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_RR_INT_LIM/shortDesc</name>
-  <message>
-  <source>Roll rate integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_RR_INT_LIM/longDesc</name>
-  <message>
-  <source>Roll rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large roll moment trim changes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_D/shortDesc</name>
-  <message>
-  <source>Yaw rate D gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_D/longDesc</name>
-  <message>
-  <source>Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_FF/shortDesc</name>
-  <message>
-  <source>Yaw rate feedforward</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_FF/longDesc</name>
-  <message>
-  <source>Improves tracking performance.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_I/shortDesc</name>
-  <message>
-  <source>Yaw rate I gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_I/longDesc</name>
-  <message>
-  <source>Yaw rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_K/shortDesc</name>
-  <message>
-  <source>Yaw rate controller gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_K/longDesc</name>
-  <message>
-  <source>Global gain of the controller. This gain scales the P, I and D terms of the controller: output = MC_YAWRATE_K * (MC_YAWRATE_P * error + MC_YAWRATE_I * error_integral + MC_YAWRATE_D * error_derivative) Set MC_YAWRATE_P=1 to implement a PID in the ideal form. Set MC_YAWRATE_K=1 to implement a PID in the parallel form.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_P/shortDesc</name>
-  <message>
-  <source>Yaw rate P gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YAWRATE_P/longDesc</name>
-  <message>
-  <source>Yaw rate proportional gain, i.e. control output for angular speed error 1 rad/s.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YR_INT_LIM/shortDesc</name>
-  <message>
-  <source>Yaw rate integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MC_YR_INT_LIM/longDesc</name>
-  <message>
-  <source>Yaw rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large yaw moment trim changes.</source>
+  <source>Mass of the vehicle in Kg</source>
   </message>
 </context>
 <context>
@@ -39285,6 +38127,42 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PFA_PITCH_D/shortDesc</name>
+  <message>
+  <source>Pitch differential gain</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PFA_PITCH_P/shortDesc</name>
+  <message>
+  <source>Pitch proportional gain</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PFA_ROLL_D/shortDesc</name>
+  <message>
+  <source>Roll differential gain</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PFA_ROLL_P/shortDesc</name>
+  <message>
+  <source>Roll proportional gain</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PFA_YAW_D/shortDesc</name>
+  <message>
+  <source>Yaw differential gain</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PFA_YAW_P/shortDesc</name>
+  <message>
+  <source>Yawh proportional gain</source>
+  </message>
+</context>
+<context>
   <name>/parameters/WV_GAIN/shortDesc</name>
   <message>
   <source>Weather-vane roll angle to yawrate</source>
@@ -39309,6 +38187,12 @@
   </message>
 </context>
 <context>
+  <name>$globals/category/Standard</name>
+  <message>
+  <source>Standard</source>
+  </message>
+</context>
+<context>
   <name>$globals/category/Developer</name>
   <message>
   <source>Developer</source>
@@ -39321,33 +38205,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
+  <name>$globals/group/Actuator Outputs</name>
   <message>
-  <source>Standard</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
+  <source>Actuator Outputs</source>
   </message>
 </context>
 <context>
@@ -39357,159 +38217,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Serial</name>
   <message>
   <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Actuator Outputs</name>
-  <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
   </message>
 </context>
 <context>
@@ -39519,15 +38229,171 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Acro Mode</name>
+  <name>$globals/group/UUV Attitude Control</name>
   <message>
-  <source>Multicopter Acro Mode</source>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PFA Position Control</name>
+  <message>
+  <source>PFA Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
   </message>
 </context>
 <context>
   <name>$globals/group/VTOL Attitude Control</name>
   <message>
   <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PFA Attitude Control</name>
+  <message>
+  <source>PFA Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
   </message>
 </context>
 <context>
@@ -39543,9 +38409,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/group/MAVLink</name>
   <message>
-  <source>Multicopter Attitude Control</source>
+  <source>MAVLink</source>
   </message>
 </context>
 </TS>
