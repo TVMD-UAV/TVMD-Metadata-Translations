@@ -38205,141 +38205,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Actuator Outputs</name>
+  <name>$globals/group/Land Detector</name>
   <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PFA Position Control</name>
-  <message>
-  <source>PFA Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
+  <source>Land Detector</source>
   </message>
 </context>
 <context>
@@ -38349,51 +38217,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/UAVCAN Motor Parameters</name>
   <message>
   <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PFA Attitude Control</name>
-  <message>
-  <source>PFA Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
   </message>
 </context>
 <context>
@@ -38403,15 +38229,189 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Land Detector</name>
+  <name>$globals/group/Mission</name>
   <message>
-  <source>Land Detector</source>
+  <source>Mission</source>
   </message>
 </context>
 <context>
   <name>$globals/group/MAVLink</name>
   <message>
   <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PFA Attitude Control</name>
+  <message>
+  <source>PFA Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PFA Position Control</name>
+  <message>
+  <source>PFA Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Actuator Outputs</name>
+  <message>
+  <source>Actuator Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Serial</name>
+  <message>
+  <source>Serial</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
   </message>
 </context>
 </TS>
